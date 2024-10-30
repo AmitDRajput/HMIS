@@ -1,0 +1,10 @@
+@HMIS_HostAddress = https://localhost:7185
+
+GET {{HMIS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{HMIS_HostAddress}}/weatherforecast
+
+###

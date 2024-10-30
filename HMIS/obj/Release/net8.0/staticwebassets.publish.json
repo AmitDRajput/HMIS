@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "35mZaj9PbS0bMneUgDmroAshGWs/exfM7wLCGitVzaE=",
+  "Source": "HMIS.API",
+  "BasePath": "_content/HMIS.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

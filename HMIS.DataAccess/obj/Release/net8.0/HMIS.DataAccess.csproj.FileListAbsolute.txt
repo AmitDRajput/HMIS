@@ -1,0 +1,17 @@
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.deps.json
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.runtimeconfig.json
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.dll
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.pdb
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.Domain.dll
+D:\ARYA\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.Domain.pdb
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.csproj.AssemblyReference.cache
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.AssemblyInfoInputs.cache
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.AssemblyInfo.cs
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.csproj.CoreCompileInputs.cache
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.Dat.B02A2234.Up2Date
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.dll
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\refint\HMIS.DataAccess.dll
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.pdb
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.genruntimeconfig.cache
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\ref\HMIS.DataAccess.dll

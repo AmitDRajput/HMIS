@@ -1,0 +1,11 @@
+D:\ARYA\HMIS\HMIS.Domain\bin\Debug\net8.0\HMIS.Domain.deps.json
+D:\ARYA\HMIS\HMIS.Domain\bin\Debug\net8.0\HMIS.Domain.dll
+D:\ARYA\HMIS\HMIS.Domain\bin\Debug\net8.0\HMIS.Domain.pdb
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.AssemblyInfoInputs.cache
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.AssemblyInfo.cs
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.csproj.CoreCompileInputs.cache
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.dll
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\refint\HMIS.Domain.dll
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.pdb
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\ref\HMIS.Domain.dll
