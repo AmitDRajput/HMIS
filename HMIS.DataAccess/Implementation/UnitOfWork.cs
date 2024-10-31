@@ -21,7 +21,7 @@ namespace HMIS.DataAccess.Implementation
             Patient = new PatientRepository(_context);
 
         }
-        public IDoctorRepository Doctor { get; private set; }
+        public IDoctorRepository Doctor { get; private set; } 
 
         public IPatientRepository Patient { get; private set; }
 
