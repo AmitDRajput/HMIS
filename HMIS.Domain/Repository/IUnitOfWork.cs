@@ -15,6 +15,10 @@ namespace HMIS.Domain.Repository
 
         IUserRepository UserMaster { get; }
 
+        IRoleMasterRepository RoleMaster { get; }
+
+        INavItemRepository NavItem { get; }
+
         int Save();
     }
 }

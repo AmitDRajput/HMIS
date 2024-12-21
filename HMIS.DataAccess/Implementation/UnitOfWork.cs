@@ -19,6 +19,8 @@ namespace HMIS.DataAccess.Implementation
             Appointment = new AppointmentRepository(_context);
             UserMaster = new UserRepository(_context);
             Patient = new PatientRepository(_context);
+            RoleMaster = new RoleMasterRepository(_context);
+            NavItem = new NavItemRepository(_context);
 
         }
         public IDoctorRepository Doctor { get; private set; } 
@@ -29,6 +31,8 @@ namespace HMIS.DataAccess.Implementation
 
 
         public IUserRepository UserMaster { get; private set; }
+        public IRoleMasterRepository RoleMaster { get; private set; }
+        public INavItemRepository NavItem { get; private set; }
 
         public void Dispose()
         {
