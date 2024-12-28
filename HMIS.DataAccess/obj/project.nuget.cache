@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ntK/ZPFKyUY=",
+  "dgSpecHash": "YgmgjB5NlQw=",
   "success": true,
-  "projectFilePath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj",
+  "projectFilePath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

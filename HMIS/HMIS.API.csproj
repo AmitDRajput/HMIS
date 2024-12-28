@@ -26,4 +26,9 @@
     <ProjectReference Include="..\HMIS.DataAccess\HMIS.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="HmisDocs\PatientPic\" />
+    <Folder Include="HmisDocs\PatientProfile\" />
+  </ItemGroup>
+
 </Project>

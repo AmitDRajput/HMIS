@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {}
+    "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {}
   },
   "projects": {
-    "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {
+    "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+        "projectUniqueName": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
         "projectName": "HMIS.Domain",
-        "projectPath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+        "projectPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.Domain\\obj\\",
+        "outputPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

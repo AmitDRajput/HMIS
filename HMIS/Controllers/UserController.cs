@@ -34,7 +34,18 @@ namespace HMIS.API.Controllers
 
             var token = _tokenService.GenerateJwtToken(user);
 
-            return Ok(new { Token = token });
+            var userDto = new UserMasterDTO
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Email = user.Email,
+                Role = user.Role,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                token = token  // Include the token in the DTO
+            };
+
+            return Ok( userDto );
         }
 
         [HttpGet]

@@ -4335,11 +4335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS\\HMIS.API.csproj",
+      "projectUniqueName": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
       "projectName": "HMIS.API",
-      "projectPath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS\\HMIS.API.csproj",
+      "projectPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS\\obj\\",
+      "outputPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4357,8 +4357,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj": {
-              "projectPath": "D:\\HMS\\HMIS (2)\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj"
+            "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj": {
+              "projectPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\HMIS.DataAccess.csproj"
             }
           }
         }

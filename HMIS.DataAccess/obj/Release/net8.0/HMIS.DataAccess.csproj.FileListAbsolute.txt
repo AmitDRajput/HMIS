@@ -15,3 +15,21 @@ D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\refint\HMIS.DataAccess.dll
 D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.pdb
 D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.genruntimeconfig.cache
 D:\ARYA\HMIS\HMIS.DataAccess\obj\Release\net8.0\ref\HMIS.DataAccess.dll
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.deps.json
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.runtimeconfig.json
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.dll
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.DataAccess.pdb
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.Domain.dll
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\bin\Release\net8.0\HMIS.Domain.pdb
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.csproj.AssemblyReference.cache
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.AssemblyInfoInputs.cache
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.AssemblyInfo.cs
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.csproj.CoreCompileInputs.cache
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.sourcelink.json
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.Dat.B02A2234.Up2Date
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.dll
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\refint\HMIS.DataAccess.dll
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.pdb
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\HMIS.DataAccess.genruntimeconfig.cache
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Release\net8.0\ref\HMIS.DataAccess.dll

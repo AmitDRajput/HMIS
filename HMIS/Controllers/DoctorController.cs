@@ -28,13 +28,14 @@ namespace HMIS.API.Controllers
         public IActionResult GetAllDoctors()
         {
             var docFromRepo = _unitOfWork.Doctor.GetAll().OrderByDescending(x => x.DoctorID);
-            return Ok(docFromRepo);
+             return Ok(docFromRepo);
         }
 
         [HttpPost("CreateDoctor")]
         public IActionResult CreateDoctor(Doctor doc)
         {
             _unitOfWork.Doctor.Add(doc);
+            _unitOfWork.Save();
             return Ok(doc.DoctorID);
         }
 

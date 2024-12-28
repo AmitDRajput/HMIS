@@ -19,6 +19,8 @@ namespace HMIS.Domain.Repository
 
         INavItemRepository NavItem { get; }
 
+        IPatientDocumentRepository PatientDocument { get; }
+
         int Save();
     }
 }
