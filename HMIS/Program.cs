@@ -7,7 +7,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using HMIS.API.Service;
 using Microsoft.OpenApi.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,7 +24,7 @@ builder.Services.AddScoped<TokenService>();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "HMIS.API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "HIMSApplication.API", Version = "v1" });
 
     // Define the security scheme
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -37,6 +36,9 @@ builder.Services.AddSwaggerGen(c =>
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
+
+
+
     });
 
     // Require the token in requests
@@ -67,6 +69,9 @@ builder.Services.AddCors(options =>
         builder.AllowAnyOrigin()  // Allows all origins
                .AllowAnyMethod()  // Allows all HTTP methods (GET, POST, PUT, DELETE, etc.)
                .AllowAnyHeader(); // Allows all headers
+        
+
+
     });
 });
 
@@ -90,14 +95,22 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
+// Middleware Registarion 
+
+
+app.UseMiddleware<CustomException>();
+
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
 
 app.UseHttpsRedirection();
+
 
 // Enable CORS
 app.UseCors("AllowAll");

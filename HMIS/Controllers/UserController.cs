@@ -58,7 +58,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllUsers")]
         public IActionResult GetAllUsers()
         {
-            var docFromRepo = _unitOfWork.UserMaster.GetAll().OrderByDescending(x => x.Id);
+            var docFromRepo = _unitOfWork.UserMaster.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.Id);
             return Ok(docFromRepo);
         }
 

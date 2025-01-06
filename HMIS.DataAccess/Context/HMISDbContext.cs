@@ -20,16 +20,19 @@ namespace HMIS.DataAccess.Context
 
         public DbSet<PatientDocument> PatientDocument { get; set; }
 
+        public DbSet<StaffDocument> StaffDocument { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<MedicalRecord> MedicalRecords { get; set; }
         public DbSet<Billing> Billings { get; set; }
         public DbSet<Staff> Staff { get; set; }
-        public DbSet<Room> Rooms { get; set; }
+        //public DbSet<RoomType> Rooms { get; set; }
         public DbSet<Admission> Admissions { get; set; }
 
         public DbSet<UserMaster> UserMaster { get; set; }
+
+        public DbSet<RoomTypes> roomTypes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

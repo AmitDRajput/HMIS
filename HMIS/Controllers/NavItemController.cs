@@ -25,7 +25,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllNavItems")]
         public IActionResult GetAllNavItems()
         {
-            var docFromRepo = _unitOfWork.NavItem.GetAll().OrderByDescending(x => x.Id);
+            var docFromRepo = _unitOfWork.NavItem.GetAll().Where(x=> x.IsActive==true).OrderByDescending(x => x.Id);
             return Ok(docFromRepo);
         }
 

@@ -7,13 +7,15 @@ using System.Threading.Tasks;
 
 namespace HMIS.Domain.Entities
 {
-    public class Room
+    public class RoomTypes
     {
         [Key]
         public int RoomID { get; set; }
         public string RoomNumber { get; set; } = string.Empty;
-        public string RoomType { get; set; } = "General";
+        public int RoomTypesId { get; set; } 
         public string AvailabilityStatus { get; set; } = "Available";
+
+        public bool IsActive { get; set; }
 
         // Navigation properties
         public ICollection<Admission>? Admissions { get; set; }

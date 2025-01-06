@@ -17,6 +17,7 @@ namespace HMIS.Domain.Entities
         public string? IconClass { get; set; }
         public string? SubIconClass { get; set; }
         public string? Text { get; set; }
+        public bool IsActive { get; set; }
 
         public NavItem? Parent { get; set; }
         public ICollection<NavItem>? Children { get; set; }

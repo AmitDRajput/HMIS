@@ -31,7 +31,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllRoleMasters")]
         public IActionResult GetAllRoleMasters()
         {
-            var docFromRepo = _unitOfWork.RoleMaster.GetAll().OrderByDescending(x => x.RoleMasterId);
+            var docFromRepo = _unitOfWork.RoleMaster.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.RoleMasterId);
             return Ok(docFromRepo);
         }
 
@@ -43,7 +43,7 @@ namespace HMIS.API.Controllers
         }
 
         [HttpPost("UpdateRoleMaster")]
-        public IActionResult UpdateAppointment(RoleMaster roleMst)
+        public IActionResult UpdateRoleMaster(RoleMaster roleMst)
         {
             _unitOfWork.RoleMaster.Update(roleMst);
             _unitOfWork.Save();

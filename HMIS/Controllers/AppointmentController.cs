@@ -25,7 +25,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllAppointments")]
         public IActionResult GetAllAppointments()
         {
-            var docFromRepo = _unitOfWork.Appointment.GetAll().OrderByDescending(x => x.AppointmentID);
+            var docFromRepo = _unitOfWork.Appointment.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.AppointmentID);
             return Ok(docFromRepo);
         }
 

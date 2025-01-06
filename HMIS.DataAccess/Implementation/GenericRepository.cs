@@ -39,6 +39,24 @@ namespace HMIS.DataAccess.Implementation
             return _context.Set<T>().ToList();
         }
 
+        //public IEnumerable<T> GetAll(int? id = null)
+        //{
+        //    var query = _context.Set<T>().AsQueryable();
+
+            
+
+        //    if (typeof(T).GetProperty("IsActive") != null)
+        //    {
+        //        query = query.Where(e => EF.Property<bool>(e, "IsActive"));
+        //    }
+
+
+        //    return query.ToList();
+        //}
+
+
+
+
         public T GetById(int id)
         {
             return _context.Set<T>().Find(id);

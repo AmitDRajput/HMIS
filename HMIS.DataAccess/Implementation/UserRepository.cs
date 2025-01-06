@@ -18,7 +18,8 @@ namespace HMIS.DataAccess.Implementation
 
         public UserMaster GetUserByUsernameAndPassword(string username, string password)
         {
-            return _context.UserMaster.FirstOrDefault(u => u.Username == username && u.Password == password);
+            return _context.UserMaster.FirstOrDefault(u => u.Username == username && u.Password == password && u.IsActive==true);
+
 
         }
     }

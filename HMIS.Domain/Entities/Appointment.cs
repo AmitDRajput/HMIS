@@ -17,6 +17,7 @@ namespace HMIS.Domain.Entities
         public string? ReasonForVisit { get; set; }   // Reason for visit (nullable)
         public string Status { get; set; } = "Scheduled";  // Default status is "Scheduled"
 
+        public bool IsActive { get; set; }
         // Navigation properties
         public virtual Patient? Patient { get; set; }  // Relationship to Patient
         public virtual Doctor? Doctor { get; set; }    // Relationship to Doctor

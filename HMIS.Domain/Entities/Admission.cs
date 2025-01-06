@@ -19,7 +19,7 @@ namespace HMIS.Domain.Entities
 
         // Navigation properties
         public Patient? Patient { get; set; }
-        public Room? Room { get; set; }
+        //public RoomType? Room { get; set; }
     }
 
 }

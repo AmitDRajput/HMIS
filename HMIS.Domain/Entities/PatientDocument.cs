@@ -14,9 +14,10 @@ namespace HMIS.Domain.Entities
             
           
             public long PatientID { get; set; }
+            public bool IsActiveIsDeleted { get; set; }
 
         [Key]
-        public long DocumentID { get; set; }            // Patients Document Id
+            public long DocumentID { get; set; }            // Patients Document Id
             public string DocumentName { get; set; }       // DocumentName ex. Blood Report, X-ray, Prescription etc.
             public string DocumentPath { get; set; }       // Patients Document path
 

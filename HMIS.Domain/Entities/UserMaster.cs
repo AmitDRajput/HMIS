@@ -19,6 +19,9 @@ namespace HMIS.Domain.Entities
         public string? EmailConfirmed { get; set; } = string.Empty;
         public string? Role { get; set; } = string.Empty;
 
+        public bool IsActive { get; set; }
+
+
     }
 
     public class UserMasterDTO

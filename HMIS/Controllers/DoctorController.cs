@@ -9,7 +9,7 @@ namespace HMIS.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class DoctorController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -27,7 +27,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllDoctors")]
         public IActionResult GetAllDoctors()
         {
-            var docFromRepo = _unitOfWork.Doctor.GetAll().OrderByDescending(x => x.DoctorID);
+            var docFromRepo = _unitOfWork.Doctor.GetAll().Where(x=> x.IsActive==true).OrderByDescending(x => x.DoctorID);
              return Ok(docFromRepo);
         }
 

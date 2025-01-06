@@ -32,7 +32,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllPatients")]
         public IActionResult GetAllPatients()
         {
-            var docFromRepo = _unitOfWork.Patient.GetAll().OrderByDescending(x => x.PatientID);
+            var docFromRepo = _unitOfWork.Patient.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.PatientID);
             return Ok(docFromRepo);
         }
 

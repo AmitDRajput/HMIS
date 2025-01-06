@@ -13,6 +13,7 @@ namespace HMIS.Domain.Entities
         [Key]
         public int RoleMasterId { get; set; }
         public string RoleName { get; set; } = string.Empty;
+        public bool IsActive { get; set; }
 
         // Navigation property for the related UserMasters
         [JsonIgnore]

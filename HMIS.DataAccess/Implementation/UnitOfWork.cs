@@ -22,6 +22,8 @@ namespace HMIS.DataAccess.Implementation
             RoleMaster = new RoleMasterRepository(_context);
             NavItem = new NavItemRepository(_context);
             PatientDocument = new PatientDocumentRepository(_context);
+            StaffDocument = new StaffDocumentRepository(_context);
+            RoomTypes = new RoomTypesRepository(_context);
         }
         public IDoctorRepository Doctor { get; private set; } 
 
@@ -36,6 +38,13 @@ namespace HMIS.DataAccess.Implementation
 
         public IPatientDocumentRepository PatientDocument { get; private set; }
 
+        public IStaffDocumentRepository StaffDocument { get; private set; }
+        public IStaffRepository staff { get; private set; }
+
+        public IRoomTypesRepository RoomTypes { get; private set; }
+
+
+        //public IRoomAllotmentRepository RoomAllotment { get; private set; }
         public void Dispose()
         {
             _context.Dispose();

@@ -20,7 +20,13 @@ namespace HMIS.Domain.Repository
         INavItemRepository NavItem { get; }
 
         IPatientDocumentRepository PatientDocument { get; }
+        IStaffDocumentRepository StaffDocument { get; }
+        IStaffRepository staff { get; }
 
+        IRoomTypesRepository RoomTypes { get; }
+
+
+        //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();
     }
 }
