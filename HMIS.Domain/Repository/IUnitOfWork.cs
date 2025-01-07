@@ -25,6 +25,8 @@ namespace HMIS.Domain.Repository
 
         IRoomTypesRepository RoomTypes { get; }
 
+        IDepartmentsRepository Departments { get; }
+
 
         //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();

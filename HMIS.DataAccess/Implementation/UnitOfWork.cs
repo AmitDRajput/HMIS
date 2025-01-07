@@ -24,6 +24,7 @@ namespace HMIS.DataAccess.Implementation
             PatientDocument = new PatientDocumentRepository(_context);
             StaffDocument = new StaffDocumentRepository(_context);
             RoomTypes = new RoomTypesRepository(_context);
+            Departments = new DepartmentsRepository(_context);
         }
         public IDoctorRepository Doctor { get; private set; } 
 
@@ -42,6 +43,8 @@ namespace HMIS.DataAccess.Implementation
         public IStaffRepository staff { get; private set; }
 
         public IRoomTypesRepository RoomTypes { get; private set; }
+
+        public IDepartmentsRepository Departments { get; private set; }
 
 
         //public IRoomAllotmentRepository RoomAllotment { get; private set; }
