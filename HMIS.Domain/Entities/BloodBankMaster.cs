@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace HMIS.Domain.Entities
 {
-    public class BloodBankMaster
+    public class BloodbankMaster
     {
         [Key]
+
+        public int BloodbankMasterID { get; set; }
         public int BloodBankID { get; set; } // Primary key
         public string BloodType { get; set; } // Blood type (e.g., A+, O-, B+)
         public int Quantity { get; set; } // Quantity of blood in units
@@ -25,6 +27,7 @@ namespace HMIS.Domain.Entities
         public DateTime CreatedAt { get; set; } // Record creation timestamp
         public DateTime UpdatedAt { get; set; } // Record update timestamp
 
+        public bool IsActive { get; set; }
         // Optionally, you can define navigation properties for the foreign key if you have a related Donor class
         // public virtual Donor Donor { get; set; }
 

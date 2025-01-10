@@ -34,8 +34,20 @@ namespace HMIS.DataAccess.Implementation
             return _context.Set<T>().Where(predicate);
         }
 
+        //public IEnumerable<T> GetAll()
+        //{
+        //    return _context.Set<T>().ToList();
+        //}
         public IEnumerable<T> GetAll()
         {
+            var data = _context.Set<T>().ToList();
+
+            // Check if data is null or empty
+            if (data == null || !data.Any())
+            {
+                return Enumerable.Empty<T>();  // Return an empty collection if no data is found
+            }
+
             return _context.Set<T>().ToList();
         }
 
@@ -43,7 +55,7 @@ namespace HMIS.DataAccess.Implementation
         //{
         //    var query = _context.Set<T>().AsQueryable();
 
-            
+
 
         //    if (typeof(T).GetProperty("IsActive") != null)
         //    {

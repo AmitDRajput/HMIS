@@ -441,6 +441,7 @@ D:\HMS\HMIS -21-12-2024\HMIS\HMIS\bin\Debug\net8.0\HMIS.DataAccess.dll
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\bin\Debug\net8.0\HMIS.Domain.dll
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\bin\Debug\net8.0\HMIS.DataAccess.pdb
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\bin\Debug\net8.0\HMIS.Domain.pdb
+D:\HMS\HMIS -21-12-2024\HMIS\HMIS\obj\Debug\net8.0\HMIS.API.MvcApplicationPartsAssemblyInfo.cs
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\obj\Debug\net8.0\staticwebassets.build.json
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\obj\Debug\net8.0\staticwebassets.development.json
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS\obj\Debug\net8.0\staticwebassets\msbuild.HMIS.API.Microsoft.AspNetCore.StaticWebAssets.props

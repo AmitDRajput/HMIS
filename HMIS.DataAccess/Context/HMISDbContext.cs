@@ -14,12 +14,13 @@ namespace HMIS.DataAccess.Context
     {
         public HMISDbContext(DbContextOptions<HMISDbContext> options) : base(options)
         {
-            
+
         }
         public DbSet<Patient> Patients { get; set; }
 
         public DbSet<PatientDocument> PatientDocument { get; set; }
 
+        public DbSet <RoleMaster> RoleMaster { get; set; }
         public DbSet<StaffDocument> StaffDocument { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Departments> Departments { get; set; }
@@ -27,13 +28,26 @@ namespace HMIS.DataAccess.Context
         public DbSet<MedicalRecord> MedicalRecords { get; set; }
         public DbSet<Billing> Billings { get; set; }
         public DbSet<Staff> Staff { get; set; }
-        //public DbSet<RoomType> Rooms { get; set; }
+        public DbSet<RoomTypes> Rooms { get; set; }
         public DbSet<Admission> Admissions { get; set; }
 
         public DbSet<UserMaster> UserMaster { get; set; }
 
         public DbSet<RoomTypes> roomTypes { get; set; }
 
+        public DbSet<Departments> department { get; set; }
+
+        public DbSet<BloodbankMaster> bloodbankMaster { get; set; }
+
+        public DbSet<BloodStorage> bloodStorage { get; set; }
+
+        public DbSet<BloodDonor> bloodDonor { get; set; }
+
+        public DbSet<InsuranceProvider> insuranceProvider { get; set; }
+
+        public DbSet<Holiday> Holiday{ get; set; }
+
+        public DbSet<AmbulanceCallList> ambulanceCallList { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configure relationships, keys, etc.

@@ -11,11 +11,12 @@ namespace HMIS.Domain.Entities
     {
         [Key]
         public int DoctorID { get; set; }        // Primary key
-        public string DoctorName { get; set; }   // Name of the doctor
-        public string Specialty { get; set; }    // Specialty field
-        public string Phone { get; set; }        // Contact number
+        public string? DoctorName { get; set; }   // Name of the doctor
+        public string? Specialty { get; set; }    // Specialty field
+        public string? Phone { get; set; }        // Contact number
         public int DepartmentID { get; set; }    // Foreign key to Department
-        public bool IsActive { get; set; }       // Flag For Doctor 
+        public bool? IsActive { get; set; }       // Flag For Doctor 
+        
         // Navigation properties
         //public virtual Department? Department { get; set; }  // Relationship to Department
         //public virtual ICollection<Appointment>? Appointments { get; set; } // One-to-many relationship with Appointments

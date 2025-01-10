@@ -13,15 +13,15 @@ namespace HMIS.Domain.Entities
         [Key]
         public int DepartmentId { get; set; }
 
-        public string DeprtmentName { get; set; }
+        public string? DepartmentName { get; set; }
 
-        public DateTime DepartmentDate { get; set; }
+        public DateTime? DepartmentDate { get; set; }
 
-        public string DepartmentHead { get; set; } // The Name of Department Head
+        public string? DepartmentHead { get; set; } // The Name of Department Head
 
-        public string Description { get; set; }   // The Description of department e.g. Gynacology, Surgical etc
+        public string? Description { get; set; }   // The Description of department e.g. Gynacology, Surgical etc
 
-        public bool IsActive { get; set; } = true;
+        public bool? IsActive { get; set; } = true;
 
 
     }

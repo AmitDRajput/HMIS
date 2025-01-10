@@ -38,6 +38,7 @@ namespace HMIS.API.Controllers
         public IActionResult CreateDepartments(Departments departments)
         {
             _unitOfWork.Departments.Add(departments);
+            _unitOfWork.Save();
             return Ok(departments.DepartmentId);
         }
 

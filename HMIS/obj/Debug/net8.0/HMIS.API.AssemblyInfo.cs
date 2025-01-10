@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMIS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c9690aed26c090f6ef1eb75f56d333cddda5f7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5ddd3feb637c866a29cc8fbebd82a59cf9a884f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMIS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMIS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

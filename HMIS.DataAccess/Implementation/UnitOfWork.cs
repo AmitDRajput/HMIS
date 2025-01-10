@@ -1,11 +1,7 @@
 ﻿using HMIS.DataAccess.Context;
 using HMIS.Domain.Entities;
 using HMIS.Domain.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace HMIS.DataAccess.Implementation
 {
@@ -25,8 +21,14 @@ namespace HMIS.DataAccess.Implementation
             StaffDocument = new StaffDocumentRepository(_context);
             RoomTypes = new RoomTypesRepository(_context);
             Departments = new DepartmentsRepository(_context);
+            BloodbankMaster = new BloodbankMasterRepository(_context);
+            BloodDonor = new BloodDonorRepository(_context);
+            BloodStorage = new BloodStorageRepository(_context);
+            InsuranceProvider = new InsuranceProviderRepository(_context);
+            Holiday = new HolidayRepository(_context);
+            AmbulanceCallList = new AmbulanceCallListRepository(_context);
         }
-        public IDoctorRepository Doctor { get; private set; } 
+        public IDoctorRepository Doctor { get; private set; }
 
         public IPatientRepository Patient { get; private set; }
 
@@ -46,6 +48,19 @@ namespace HMIS.DataAccess.Implementation
 
         public IDepartmentsRepository Departments { get; private set; }
 
+        public IBloodbankMasterRepository BloodbankMaster { get; private set; }
+
+        public IBloodStorageRepository BloodStorage { get; private set; }
+
+        public IBloodDonorRepository BloodDonor { get; private set; }
+
+        public IInsuranceProviderRepository InsuranceProvider { get; private set; }
+
+        public IHolidayRepository Holiday { get; private set; }
+
+        public IAmbulanceCallListRepository AmbulanceCallList { get; private set; }
+
+
 
         //public IRoomAllotmentRepository RoomAllotment { get; private set; }
         public void Dispose()
@@ -57,5 +72,32 @@ namespace HMIS.DataAccess.Implementation
         {
             return _context.SaveChanges();
         }
+        //public int Save()
+        //{
+        //    try
+        //    {
+        //        return _context.SaveChanges();
+        //    }
+        //    catch (DbUpdateConcurrencyException ex)
+        //    {
+        //        foreach (var entry in ex.Entries)
+        //        {
+        //            if (entry.State == EntityState.Modified)
+        //            {
+        //                var databaseValues = entry.GetDatabaseValues();
+        //                if (databaseValues != null)
+        //                {
+        //                    entry.OriginalValues.SetValues(databaseValues);
+        //                }
+        //                else
+        //                {
+        //                    entry.State = EntityState.Detached;
+        //                }
+        //            }
+        //        }
+        //        return _context.SaveChanges();
+        //    }
+        //}
+
     }
 }

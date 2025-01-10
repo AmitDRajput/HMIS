@@ -27,6 +27,17 @@ namespace HMIS.Domain.Repository
 
         IDepartmentsRepository Departments { get; }
 
+        IBloodbankMasterRepository BloodbankMaster { get; }
+
+        IBloodStorageRepository BloodStorage { get; }
+
+        IBloodDonorRepository BloodDonor { get; }
+
+        IInsuranceProviderRepository InsuranceProvider { get; }
+
+        IHolidayRepository Holiday { get; }
+
+        IAmbulanceCallListRepository AmbulanceCallList { get; }
 
         //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();
