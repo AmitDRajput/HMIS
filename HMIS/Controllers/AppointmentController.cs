@@ -22,8 +22,8 @@ namespace HMIS.API.Controllers
         }
 
         // Admin and Patient can view appointments
-        [HttpGet("GetAppointmentById/{id}")]  // Admin and Patient can view appointments
-       // [Authorize(Roles = "Admin,Patient")] // Both Admin and Patient can access this
+        [HttpGet("GetAppointmentById/{id}")] 
+        // [Authorize(Roles = "Admin,Patient")] // Both Admin and Patient can access this
 
         //public IActionResult GetAppointmentById(int id)
         //{

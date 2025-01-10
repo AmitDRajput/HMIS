@@ -20,7 +20,7 @@ namespace HMIS.Domain.Entities
             public string PhoneNumber { get; set; }      // Phone number of the donor
             public string Email { get; set; }            // Email address of the donor
             public string DonorStatus { get; set; }      // Status of the donor (Active/Inactive)
-            public DateTime? LastDonationDate { get; set; } // Last date of donation
+            public DateTime? LastDonationDate { get; set; } // Last date of Doner     
             public DateTime? NextEligibleDonationDate { get; set; } // Next eligible donation date
             public string DonorLocation { get; set; }    // Blood bank location where the donor is registered
             public DateTime LastUpdated { get; set; }  
