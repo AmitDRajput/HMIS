@@ -3,56 +3,112 @@
   "WorkspaceRootPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\middleware\\customeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\middleware\\customeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\bloodstoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\bloodstoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\middleware\\customeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\middleware\\customeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\hmis.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\hmis.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\blooddonorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\blooddonorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\ambulancecalllistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\ambulancecalllistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\ambulancecalllistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\ambulancecalllistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\patientdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\patientdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\navitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\navitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\insuranceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\insuranceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\holidaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\holidaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\bloodstoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\bloodstoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\blooddonorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\blooddonorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\bloodbankmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\bloodbankmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\migrations\\hmisdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\migrations\\hmisdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\istaffdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\istaffdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\context\\hmisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\context\\hmisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\hmis.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\hmis.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\rolemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\migrations\\hmisdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\migrations\\hmisdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\blooddonor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,18 +123,6 @@
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,24 +134,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\AppData\\Local\\SourceServer\\79efc4d2f74196188619a34c5e72e351d41dc3ddf50109aece37b15639d78d57\\HMIS\\Controllers\\DepartmentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\holidaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\holidaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\context\\hmisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\context\\hmisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -162,16 +194,8 @@
       "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\migrations\\20240929183955_creatinghmisdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\bloodbankmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\bloodbankmastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\idoctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\insuranceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\insuranceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\bloodbankmasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -226,10 +250,6 @@
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\irolemasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\irolemasterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -254,16 +274,8 @@
       "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\staffdocumentrepsoitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\patientdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\patientdocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\controllers\\navitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|solutionrelative:hmis\\controllers\\navitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{054D95B7-BFDD-41EF-8A05-B5CD3D170254}|HMIS\\HMIS.API.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -294,14 +306,6 @@
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\repository\\istaffdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\repository\\istaffdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\patientdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|solutionrelative:hmis.domain\\entities\\patientdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -320,10 +324,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.dataaccess\\implementation\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457BAEA1-3C5D-46A9-8003-349B28545648}|HMIS.DataAccess\\HMIS.DataAccess.csproj|solutionrelative:hmis.dataaccess\\implementation\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D539FEC9-4415-49DF-8CA7-9D6C618B5828}|HMIS.Domain\\HMIS.Domain.csproj|d:\\hms\\hmis -21-12-2024\\hmis\\hmis.domain\\entities\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -364,115 +364,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BloodDonorController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodDonorController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodDonorController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodDonorController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\BloodDonorController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAAC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:36:06.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BloodStorageController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodStorageController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodStorageController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodStorageController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\BloodStorageController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAuwDEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T14:37:36.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RoleMasterController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\RoleMasterController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\RoleMasterController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\RoleMasterController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\RoleMasterController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAmwDIAAAAJAAAA",
+              "Title": "PatientDocumentController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientDocumentController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\PatientDocumentController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientDocumentController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\PatientDocumentController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T06:11:55.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StaffController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\StaffController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\StaffController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\StaffController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\StaffController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAqwB4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T10:56:19.324Z",
+              "WhenOpened": "2025-01-02T11:37:26.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IUnitOfWork.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IUnitOfWork.cs",
-              "RelativeToolTip": "HMIS.Domain\\Repository\\IUnitOfWork.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:50:31.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HMIS.API.csproj",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
-              "RelativeDocumentMoniker": "HMIS\\HMIS.API.csproj",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
-              "RelativeToolTip": "HMIS\\HMIS.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T19:26:59.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomeException.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Middleware\\CustomeException.cs",
-              "RelativeDocumentMoniker": "HMIS\\Middleware\\CustomeException.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Middleware\\CustomeException.cs",
-              "RelativeToolTip": "HMIS\\Middleware\\CustomeException.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwCQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T05:12:04.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BloodDonor.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodDonor.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\BloodDonor.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodDonor.cs",
-              "RelativeToolTip": "HMIS.Domain\\Entities\\BloodDonor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:29:34.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AmbulanceCallListController.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\AmbulanceCallListController.cs",
               "RelativeDocumentMoniker": "HMIS\\Controllers\\AmbulanceCallListController.cs",
@@ -485,72 +394,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\AppointmentController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAswK0AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T17:07:21.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\StaffRepository.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\StaffRepository.cs",
+              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\StaffRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:57:19.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\StaffController.cs*",
+              "RelativeToolTip": "HMIS\\Controllers\\StaffController.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:56:19.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavItemController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\NavItemController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\NavItemController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\NavItemController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\NavItemController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwBsAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:16:45.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Program.cs",
-              "RelativeDocumentMoniker": "HMIS\\Program.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Program.cs",
-              "RelativeToolTip": "HMIS\\Program.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAhwK0AAAAAAAAA",
+              "Title": "InsuranceProviderController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\InsuranceProviderController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\InsuranceProviderController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\InsuranceProviderController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\InsuranceProviderController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA3wBQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T04:06:47.228Z",
+              "WhenOpened": "2025-01-08T14:24:16.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HMISDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
-              "RelativeToolTip": "HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "CustomeException.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Middleware\\CustomeException.cs",
+              "RelativeDocumentMoniker": "HMIS\\Middleware\\CustomeException.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Middleware\\CustomeException.cs",
+              "RelativeToolTip": "HMIS\\Middleware\\CustomeException.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwBoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T09:48:17.321Z",
+              "WhenOpened": "2025-01-03T05:12:04.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\GenericRepository.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\GenericRepository.cs",
-              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\GenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "DocumentIndex": 6,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwFYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:56:48.943Z",
+              "WhenOpened": "2024-10-05T09:03:38.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IGenericRepository.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IGenericRepository.cs",
-              "RelativeToolTip": "HMIS.Domain\\Repository\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAKAAAA",
+              "DocumentIndex": 9,
+              "Title": "HolidayController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\HolidayController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\HolidayController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\HolidayController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\HolidayController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwC0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:38:13.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
-              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwEgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:02:45.092Z",
+              "WhenOpened": "2025-01-08T16:41:11.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwCUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:16:32.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T06:05:08.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BloodStorageController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodStorageController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodStorageController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodStorageController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\BloodStorageController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwDEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:37:36.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BloodDonorController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodDonorController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodDonorController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodDonorController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\BloodDonorController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:36:06.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BloodbankMasterController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodbankMasterController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodbankMasterController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodbankMasterController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\BloodbankMasterController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:05:26.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\AppointmentRepository.cs",
@@ -563,33 +576,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\AppointmentController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\AppointmentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKMAAAANAAAA",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\GenericRepository.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\GenericRepository.cs",
+              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\GenericRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T17:07:21.119Z",
+              "WhenOpened": "2024-09-30T08:56:48.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoleMasterController.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\RoleMasterController.cs",
+              "RelativeDocumentMoniker": "HMIS\\Controllers\\RoleMasterController.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\RoleMasterController.cs",
+              "RelativeToolTip": "HMIS\\Controllers\\RoleMasterController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:11:55.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA5wC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:02:45.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\PatientController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFYAAAAkAAAA",
+              "Title": "Staff.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Staff.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Staff.cs",
+              "RelativeToolTip": "HMIS.Domain\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T09:03:38.982Z",
+              "WhenOpened": "2024-09-29T17:24:40.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
+              "Title": "IStaffDocumentRepository.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
+              "RelativeToolTip": "HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T11:33:26.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IStaffRepository.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffRepository.cs",
+              "RelativeToolTip": "HMIS.Domain\\Repository\\IStaffRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T10:50:47.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HMISDbContext.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Context\\HMISDbContext.cs",
+              "RelativeDocumentMoniker": "HMIS.DataAccess\\Context\\HMISDbContext.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Context\\HMISDbContext.cs",
+              "RelativeToolTip": "HMIS.DataAccess\\Context\\HMISDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA5wB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:13:23.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Program.cs",
+              "RelativeDocumentMoniker": "HMIS\\Program.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Program.cs",
+              "RelativeToolTip": "HMIS\\Program.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAhwMkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:06:47.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "HMIS.Domain\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:50:31.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HMIS.API.csproj",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
+              "RelativeDocumentMoniker": "HMIS\\HMIS.API.csproj",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\HMIS.API.csproj",
+              "RelativeToolTip": "HMIS\\HMIS.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-06T19:26:59.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BloodDonor.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodDonor.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\BloodDonor.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodDonor.cs",
+              "RelativeToolTip": "HMIS.Domain\\Entities\\BloodDonor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:29:34.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HMISDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
+              "RelativeToolTip": "HMIS.DataAccess\\Migrations\\HMISDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T09:48:17.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IGenericRepository.cs",
+              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "HMIS.Domain\\Repository\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T08:38:13.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Appointment.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Appointment.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Appointment.cs",
@@ -606,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "IDepartmentsRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IDepartmentsRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IDepartmentsRepository.cs",
@@ -619,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Departments.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Departments.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Departments.cs",
@@ -632,20 +788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAIBJwCoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T06:05:08.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\AppData\\Local\\SourceServer\\79efc4d2f74196188619a34c5e72e351d41dc3ddf50109aece37b15639d78d57\\HMIS\\Controllers\\DepartmentsController.cs",
               "ToolTip": "C:\\Users\\dell\\AppData\\Local\\SourceServer\\79efc4d2f74196188619a34c5e72e351d41dc3ddf50109aece37b15639d78d57\\HMIS\\Controllers\\DepartmentsController.cs",
@@ -656,46 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DoctorController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DoctorController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\DoctorController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\DoctorController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\DoctorController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:16:32.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HolidayController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\HolidayController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\HolidayController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\HolidayController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\HolidayController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwC0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T16:41:11.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HMISDbContext.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Context\\HMISDbContext.cs",
-              "RelativeDocumentMoniker": "HMIS.DataAccess\\Context\\HMISDbContext.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Context\\HMISDbContext.cs",
-              "RelativeToolTip": "HMIS.DataAccess\\Context\\HMISDbContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwA4AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:13:23.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "Doctor.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Doctor.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Doctor.cs",
@@ -708,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "Holiday.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Holiday.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Holiday.cs",
@@ -721,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "AmbulanceCallList.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\AmbulanceCallList.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\AmbulanceCallList.cs",
@@ -734,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "AmbulanceCallListRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\AmbulanceCallListRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\AmbulanceCallListRepository.cs",
@@ -747,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\appsettings.json",
               "RelativeDocumentMoniker": "HMIS\\appsettings.json",
@@ -760,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "IBloodStorageRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IBloodStorageRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IBloodStorageRepository.cs",
@@ -773,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "BloodDonorRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\BloodDonorRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\BloodDonorRepository.cs",
@@ -786,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "HolidayRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\HolidayRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\HolidayRepository.cs",
@@ -799,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "InsuranceProviderRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\InsuranceProviderRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\InsuranceProviderRepository.cs",
@@ -812,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "BloodStorageRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\BloodStorageRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\BloodStorageRepository.cs",
@@ -825,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "IHolidayRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IHolidayRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IHolidayRepository.cs",
@@ -838,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "IAmbulanceCallListRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IAmbulanceCallListRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IAmbulanceCallListRepository.cs",
@@ -851,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "IAppointmentRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IAppointmentRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IAppointmentRepository.cs",
@@ -864,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "20240929183955_CreatingHMISDB.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Migrations\\20240929183955_CreatingHMISDB.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Migrations\\20240929183955_CreatingHMISDB.cs",
@@ -877,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "INavItemRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\INavItemRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\INavItemRepository.cs",
@@ -890,20 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "BloodbankMasterController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodbankMasterController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\BloodbankMasterController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\BloodbankMasterController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\BloodbankMasterController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA9wB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T13:05:26.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "IDoctorRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IDoctorRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IDoctorRepository.cs",
@@ -916,20 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "InsuranceProviderController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\InsuranceProviderController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\InsuranceProviderController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\InsuranceProviderController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\InsuranceProviderController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAA3wBQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:24:16.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "IInsuranceProviderRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IInsuranceProviderRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IInsuranceProviderRepository.cs",
@@ -942,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "BloodbankMasterRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\BloodbankMasterRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\BloodbankMasterRepository.cs",
@@ -955,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "IBloodbankMasterRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IBloodbankMasterRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IBloodbankMasterRepository.cs",
@@ -968,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "InsuranceProvider.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\InsuranceProvider.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\InsuranceProvider.cs",
@@ -981,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "DoctorRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\DoctorRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\DoctorRepository.cs",
@@ -994,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "IBloodDonorRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IBloodDonorRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IBloodDonorRepository.cs",
@@ -1007,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "BloodStorage.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodStorage.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\BloodStorage.cs",
@@ -1020,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "DepartmentsRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\DepartmentsRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\DepartmentsRepository.cs",
@@ -1033,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "RoleMaster.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\RoleMaster.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\RoleMaster.cs",
@@ -1046,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "BloodbankMaster.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\BloodbankMaster.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\BloodbankMaster.cs",
@@ -1059,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "IRoomAllotmentRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IRoomAllotmentRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IRoomAllotmentRepository.cs",
@@ -1072,7 +1150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "RoomTypesController.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\RoomTypesController.cs",
               "RelativeDocumentMoniker": "HMIS\\Controllers\\RoomTypesController.cs",
@@ -1085,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IUserRepository.cs",
@@ -1098,20 +1176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IStaffRepository.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffRepository.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IStaffRepository.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffRepository.cs",
-              "RelativeToolTip": "HMIS.Domain\\Repository\\IStaffRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T10:50:47.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "IRoleMasterRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IRoleMasterRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IRoleMasterRepository.cs",
@@ -1124,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "IPatientDocumentRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IPatientDocumentRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IPatientDocumentRepository.cs",
@@ -1137,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "IPatientRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IPatientRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IPatientRepository.cs",
@@ -1150,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "Billing.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Billing.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Billing.cs",
@@ -1163,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "StaffDocumentController.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\StaffDocumentController.cs",
               "RelativeDocumentMoniker": "HMIS\\Controllers\\StaffDocumentController.cs",
@@ -1176,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "StaffDocumentRepsoitory.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\StaffDocumentRepsoitory.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\StaffDocumentRepsoitory.cs",
@@ -1189,33 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "PatientDocumentController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientDocumentController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\PatientDocumentController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\PatientDocumentController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\PatientDocumentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T11:37:26.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "NavItemController.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\NavItemController.cs",
-              "RelativeDocumentMoniker": "HMIS\\Controllers\\NavItemController.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\NavItemController.cs",
-              "RelativeToolTip": "HMIS\\Controllers\\NavItemController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:16:45.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "HMIS\\Controllers\\UserController.cs",
@@ -1228,7 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "HMIS\\Service\\TokenService.cs",
@@ -1241,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\UserRepository.cs",
@@ -1254,7 +1293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "RoleMasterRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\RoleMasterRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\RoleMasterRepository.cs",
@@ -1267,7 +1306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "RoomTypesRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\RoomTypesRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\RoomTypesRepository.cs",
@@ -1280,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "IRoomTypesRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IRoomTypesRepository.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IRoomTypesRepository.cs",
@@ -1293,7 +1332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "RoomTypes.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\RoomTypes.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\RoomTypes.cs",
@@ -1306,33 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "IStaffDocumentRepository.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
-              "RelativeToolTip": "HMIS.Domain\\Repository\\IStaffDocumentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T11:33:26.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Staff.cs",
-              "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Staff.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Staff.cs",
-              "RelativeToolTip": "HMIS.Domain\\Entities\\Staff.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAUwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:24:40.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "Admission.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Admission.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Admission.cs",
@@ -1358,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "PatientDocument.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\PatientDocument.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\PatientDocument.cs",
@@ -1371,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "Patient.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\Patient.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\Patient.cs",
@@ -1384,7 +1397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "PatientRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\PatientRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\PatientRepository.cs",
@@ -1397,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "PatientDocumentRepository.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\PatientDocumentRepository.cs",
               "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\PatientDocumentRepository.cs",
@@ -1410,7 +1423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "StaffDocument.cs",
               "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\Entities\\StaffDocument.cs",
               "RelativeDocumentMoniker": "HMIS.Domain\\Entities\\StaffDocument.cs",
@@ -1419,19 +1432,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T12:46:04.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "StaffRepository.cs",
-              "DocumentMoniker": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\StaffRepository.cs",
-              "RelativeDocumentMoniker": "HMIS.DataAccess\\Implementation\\StaffRepository.cs",
-              "ToolTip": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.DataAccess\\Implementation\\StaffRepository.cs",
-              "RelativeToolTip": "HMIS.DataAccess\\Implementation\\StaffRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T10:57:19.91Z",
               "EditorCaption": ""
             },
             {

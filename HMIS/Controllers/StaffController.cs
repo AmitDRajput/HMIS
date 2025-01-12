@@ -21,14 +21,14 @@ namespace HMIS.API.Controllers
         [HttpGet]
         public IActionResult GetStaffById(int id)
         {
-            var docFromRepo = _unitOfWork.staff.GetById(id);
+            var docFromRepo = _unitOfWork.Staff.GetById(id);
             return Ok(docFromRepo);
         }
 
         [HttpGet("GetAllStaff")]
         public IActionResult GetAllStaff()
         {
-            var docFromRepo = _unitOfWork.staff.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.StaffID);
+            var docFromRepo = _unitOfWork.Staff.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.StaffID);
             return Ok(docFromRepo);
         }
 
@@ -37,10 +37,10 @@ namespace HMIS.API.Controllers
 
 
 
-        [HttpPost("CreateStaffwithDocument")]
-        public IActionResult CreateStaffWithDocument(IFormFile[] files, IFormFile StaffPic, [FromBody] Staff doc)
+        [HttpPost("AddStaff")]
+        public IActionResult AddStaff([FromForm] IFormFile[] files, [FromForm] IFormFile StaffPic, [FromForm] Staff doc)
         {
-            _unitOfWork.staff.Add(doc);
+            _unitOfWork.Staff.Add(doc);
             _unitOfWork.Save();
 
 
@@ -97,7 +97,7 @@ namespace HMIS.API.Controllers
 
                 // 5.Update the Staffs profile with the picture path
                 doc.StaffPic = staffPicPath;  // Assuming there is a 'ProfilePicturePath' field in the Patient model
-                _unitOfWork.staff.Update(doc);
+                _unitOfWork.Staff.Update(doc);
                 _unitOfWork.Save();
             }
 
@@ -106,34 +106,54 @@ namespace HMIS.API.Controllers
         }
 
             [HttpPost("UpdateStaff")]
-            public IActionResult UpdateStaff([FromBody] Staff staff)
+            public IActionResult UpdateStaff([FromBody] Staff Staff)
             {
-                if (staff == null)
+                if (Staff == null)
                 {
                     return BadRequest("Staff data is required.");
                 }
 
-                // Optionally, you could check if the staff record exists before updating
-                var existingStaff = _unitOfWork.staff.GetById(staff.StaffID);
+                // Optionally, you could check if the Staff record exists before updating
+                var existingStaff = _unitOfWork.Staff.GetById(Staff.StaffID);
                 if (existingStaff == null)
                 {
-                    return NotFound($"Staff with ID {staff.StaffID} not found.");
+                    return NotFound($"Staff with ID {Staff.StaffID} not found.");
                 }
 
-                // Update the staff information
-                _unitOfWork.staff .Update(staff);
+                // Update the Staff information
+                _unitOfWork.Staff .Update(Staff);
                 _unitOfWork.Save();
 
-                return Ok(new { StaffID = staff.StaffID, Message = "Staff updated successfully." });
+                return Ok(new { StaffID = Staff.StaffID, Message = "Staff updated successfully." });
             }
 
 
+        [HttpPost("DeleteStaff")]
+        public IActionResult DeleteStaff(int staffId)
+        {
+            
+            // Optionally, you could check if the Staff record exists before updating
+            var existingStaff = _unitOfWork.Staff.GetById(staffId);
+            if (existingStaff == null)
+            {
+                return NotFound($"Staff with ID {staffId} not found.");
+            }
 
+            // Update the Staff information
+            existingStaff.IsActive = false;
+            _unitOfWork.Staff.Update(existingStaff);
+            _unitOfWork.Save();
+
+            return Ok(new { StaffID = staffId, Message = "Staff updated successfully." });
         }
 
 
 
     }
+
+
+
+}
 
 
 

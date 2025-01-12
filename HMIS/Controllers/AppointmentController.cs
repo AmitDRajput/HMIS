@@ -171,7 +171,7 @@ namespace HMIS.API.Controllers
                 return Unauthorized("You can only cancel your own appointments.");
             }
 
-            appointment.IsActive = false; // Mark appointment as canceled
+            appointment.IsActive = false; // Mark appointment as canceled---- Change
             _unitOfWork.Appointment.Update(appointment);
             _unitOfWork.Save();
             return Ok(new { AppointmentID = id, Status = "Canceled" });
