@@ -33,3 +33,4 @@ D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.dll
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Debug\net8.0\refint\HMIS.Domain.dll
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.pdb
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Debug\net8.0\ref\HMIS.Domain.dll
+D:\ARYA\HMIS\HMIS.Domain\obj\Debug\net8.0\HMIS.Domain.sourcelink.json

@@ -70,6 +70,12 @@ namespace HMIS.DataAccess.Implementation
             _context.Dispose();
         }
 
+        public void Detach<TEntity>(TEntity entity) where TEntity : class
+        {
+            _context.Entry(entity).State = EntityState.Detached;
+        }
+
+
         public int Save()
         {
             return _context.SaveChanges();

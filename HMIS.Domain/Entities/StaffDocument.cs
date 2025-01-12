@@ -10,10 +10,10 @@ namespace HMIS.Domain.Entities
     public class StaffDocument
     {
         [Key]
-        public int StaffDocumnetID { get; set; }
+        public int StaffDocumentId { get; set; }
         public int StaffId { get; set; } 
-        public string DocumentName { get; set; } 
-        public string DocumentPath { get; set; } 
+        public string? DocumentName { get; set; } 
+        public string? DocumentPath { get; set; } 
         
     }
 

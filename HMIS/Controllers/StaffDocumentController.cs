@@ -25,7 +25,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllStaffDocument")]
         public IActionResult GetAllPatientDocument()
         {
-            var docFromRepo = _unitOfWork.StaffDocument.GetAll().OrderByDescending(x => x.StaffDocumnetID);
+            var docFromRepo = _unitOfWork.StaffDocument.GetAll().OrderByDescending(x => x.StaffDocumentId);
             return Ok(docFromRepo);
         }
 

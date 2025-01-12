@@ -41,5 +41,7 @@ namespace HMIS.Domain.Repository
 
         //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();
+
+        void Detach<TEntity>(TEntity entity) where TEntity : class;
     }
 }

@@ -51,3 +51,4 @@ D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Debug\net8.0\refint\HMIS.DataAc
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Debug\net8.0\HMIS.DataAccess.pdb
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Debug\net8.0\HMIS.DataAccess.genruntimeconfig.cache
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.DataAccess\obj\Debug\net8.0\ref\HMIS.DataAccess.dll
+D:\ARYA\HMIS\HMIS.DataAccess\obj\Debug\net8.0\HMIS.DataAccess.sourcelink.json

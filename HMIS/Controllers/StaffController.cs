@@ -1,4 +1,5 @@
-﻿using HMIS.DataAccess.Implementation;
+﻿using HMIS.API.ViewModel;
+using HMIS.DataAccess.Implementation;
 using HMIS.Domain.Entities;
 using HMIS.Domain.Repository;
 using Microsoft.AspNetCore.Authorization;
@@ -13,9 +14,12 @@ namespace HMIS.API.Controllers
     public class StaffController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
-        public StaffController(IUnitOfWork unitOfWork)
+
+        private readonly IConfiguration _configuration;
+        public StaffController(IUnitOfWork unitOfWork, IConfiguration configuration)
         {
             _unitOfWork = unitOfWork;
+            _configuration = configuration;
         }
 
         [HttpGet]
@@ -32,103 +36,99 @@ namespace HMIS.API.Controllers
             return Ok(docFromRepo);
         }
 
-
-
-
-
-
         [HttpPost("AddStaff")]
-        public IActionResult AddStaff([FromForm] IFormFile[] files, [FromForm] IFormFile StaffPic, [FromForm] Staff doc)
+        public async Task<IActionResult> AddStaff([FromForm] AddStaffRequest request)
         {
-            _unitOfWork.Staff.Add(doc);
-            _unitOfWork.Save();
-
-
-            //2.Define a folder to store the files
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "HmisDocs/StaffProfile", doc.StaffID.ToString());
-
-            //Ensure the directory exists
-            if (!Directory.Exists(folderPath))
+            try
             {
-                Directory.CreateDirectory(folderPath);
-            }
+                var doc = request.Doc;
 
-            // 3.Process each uploaded file
-            foreach (var file in files)
-            {
-                var fileName = Path.GetFileName(file.FileName);
-                var filePath = Path.Combine(folderPath, fileName);
+                // Add the staff to the database
+                _unitOfWork.Staff.Add(doc);
+                _unitOfWork.Save();
 
-                //  Save the file to the disk
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                string staffProfilePath = Path.Combine(_configuration.GetValue<string>("FileUploadBasePath"), "StaffProfile", doc.StaffID.ToString());
+                string staffPicPath = Path.Combine(_configuration.GetValue<string>("FileUploadBasePath"), "StaffPic", doc.StaffID.ToString());
+
+                // Ensure directories exist
+                Directory.CreateDirectory(staffProfilePath);
+                Directory.CreateDirectory(staffPicPath);
+
+                // Process documents
+                foreach (var file in request.Files)
                 {
-                    file.CopyTo(fileStream);
+                    var uniqueFileName = $"{Path.GetFileNameWithoutExtension(file.FileName)}_{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+                    var filePath = Path.Combine(staffProfilePath, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(fileStream);
+                    }
+
+                    var staffDocument = new StaffDocument
+                    {
+                        StaffId = doc.StaffID,
+                        DocumentName = System.IO.Path.GetFileNameWithoutExtension(file.FileName),
+                        DocumentPath = filePath
+                    };
+
+                    _unitOfWork.StaffDocument.Add(staffDocument);
                 }
 
-                //4.Save the file path to the StaffDocument table
-                var StaffDocument = new StaffDocument
+                // Process staff picture
+                if (request.StaffPic != null)
                 {
-                    StaffId = doc.StaffID,
-                    DocumentPath = filePath
-                };
+                    var uniquePicName = $"{Path.GetFileNameWithoutExtension(request.StaffPic.FileName)}_{Guid.NewGuid()}{Path.GetExtension(request.StaffPic.FileName)}";
+                    var picPath = Path.Combine(staffPicPath, uniquePicName);
 
-                _unitOfWork.StaffDocument.Add(StaffDocument);
-                _unitOfWork.Save();
-            }
+                    using (var picStream = new FileStream(picPath, FileMode.Create))
+                    {
+                        await request.StaffPic.CopyToAsync(picStream);
+                    }
 
-
-            folderPath = Path.Combine(Directory.GetCurrentDirectory(), "HmisDocs/StaffPic", doc.StaffID.ToString());
-
-            // Ensure the directory exists
-            if (!Directory.Exists(folderPath))
-            {
-                Directory.CreateDirectory(folderPath);
-            }
-            if (StaffPic != null)
-            {
-                var staffPicName = Path.GetFileName(StaffPic.FileName);
-                var staffPicPath = Path.Combine(folderPath, staffPicName);
-
-                //Save the Staff picture to the disk
-                using (var picStream = new FileStream(staffPicPath, FileMode.Create))
-                {
-                    StaffPic.CopyTo(picStream);
+                    doc.StaffPic = picPath;
+                    _unitOfWork.Staff.Update(doc);
                 }
 
-                // 5.Update the Staffs profile with the picture path
-                doc.StaffPic = staffPicPath;  // Assuming there is a 'ProfilePicturePath' field in the Patient model
-                _unitOfWork.Staff.Update(doc);
                 _unitOfWork.Save();
-            }
 
-            //6.Return the Staff ID as a response
-            return Ok(doc.StaffID);
+                return Ok(doc.StaffID);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
+            }
         }
 
-            [HttpPost("UpdateStaff")]
-            public IActionResult UpdateStaff([FromBody] Staff Staff)
+        [HttpPost("UpdateStaff")]
+        public IActionResult UpdateStaff([FromBody] Staff staff)
+        {
+            if (staff == null)
             {
-                if (Staff == null)
-                {
-                    return BadRequest("Staff data is required.");
-                }
-
-                // Optionally, you could check if the Staff record exists before updating
-                var existingStaff = _unitOfWork.Staff.GetById(Staff.StaffID);
-                if (existingStaff == null)
-                {
-                    return NotFound($"Staff with ID {Staff.StaffID} not found.");
-                }
-
-                // Update the Staff information
-                _unitOfWork.Staff .Update(Staff);
-                _unitOfWork.Save();
-
-                return Ok(new { StaffID = Staff.StaffID, Message = "Staff updated successfully." });
+                return BadRequest("Staff data is required.");
             }
 
+            // Check if the record exists
+            var existingStaff = _unitOfWork.Staff.GetById(staff.StaffID);
+            if (existingStaff == null)
+            {
+                return NotFound($"Staff with ID {staff.StaffID} not found.");
+            }
 
-        [HttpPost("DeleteStaff")]
+            // Detach the existing entity to avoid tracking conflict
+            _unitOfWork.Detach(existingStaff);
+
+            // Update the Staff information
+            _unitOfWork.Staff.Update(staff);
+            _unitOfWork.Save();
+
+            return Ok(new { StaffID = staff.StaffID, Message = "Staff updated successfully." });
+        }
+    
+
+
+
+    [HttpPost("DeleteStaff")]
         public IActionResult DeleteStaff(int staffId)
         {
             

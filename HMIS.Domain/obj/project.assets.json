@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+      "projectUniqueName": "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
       "projectName": "HMIS.Domain",
-      "projectPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "D:\\HMS\\HMIS -21-12-2024\\HMIS\\HMIS.Domain\\obj\\",
+      "projectPath": "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\ARYA\\HMIS\\HMIS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
