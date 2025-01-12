@@ -25,14 +25,14 @@ namespace HMIS.API.Controllers
             return Ok(docFromRepo);
         }
 
-        [HttpGet("GetAllSraff")]
+        [HttpGet("GetAllStaff")]
         public IActionResult GetAllStaff()
         {
             var docFromRepo = _unitOfWork.staff.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.StaffID);
             return Ok(docFromRepo);
         }
 
-       
+
 
 
 
@@ -42,7 +42,7 @@ namespace HMIS.API.Controllers
         {
             _unitOfWork.staff.Add(doc);
             _unitOfWork.Save();
-          
+
 
             //2.Define a folder to store the files
             string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "HmisDocs/StaffProfile", doc.StaffID.ToString());
@@ -105,10 +105,36 @@ namespace HMIS.API.Controllers
             return Ok(doc.StaffID);
         }
 
+            [HttpPost("UpdateStaff")]
+            public IActionResult UpdateStaff([FromBody] Staff staff)
+            {
+                if (staff == null)
+                {
+                    return BadRequest("Staff data is required.");
+                }
+
+                // Optionally, you could check if the staff record exists before updating
+                var existingStaff = _unitOfWork.staff.GetById(staff.StaffID);
+                if (existingStaff == null)
+                {
+                    return NotFound($"Staff with ID {staff.StaffID} not found.");
+                }
+
+                // Update the staff information
+                _unitOfWork.staff .Update(staff);
+                _unitOfWork.Save();
+
+                return Ok(new { StaffID = staff.StaffID, Message = "Staff updated successfully." });
+            }
+
+
+
+        }
+
 
 
     }
-}
+
 
 
 

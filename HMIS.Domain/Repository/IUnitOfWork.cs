@@ -21,7 +21,7 @@ namespace HMIS.Domain.Repository
 
         IPatientDocumentRepository PatientDocument { get; }
         IStaffDocumentRepository StaffDocument { get; }
-        IStaffRepository staff { get; }
+        IStaffRepository Staff { get; }
 
         IRoomTypesRepository RoomTypes { get; }
 
