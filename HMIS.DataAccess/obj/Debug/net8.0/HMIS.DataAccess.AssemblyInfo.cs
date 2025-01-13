@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMIS.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd8ee0c9122e728dfac2b2f03f6d884bf432f9ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+571d957fa47dfe5869e5dab3c35e5dbc8c79d951")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMIS.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMIS.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -128,7 +128,7 @@ namespace HMIS.API.Controllers
 
 
 
-    [HttpPost("DeleteStaff")]
+    [HttpDelete("DeleteStaff")]
         public IActionResult DeleteStaff(int staffId)
         {
             
@@ -144,7 +144,7 @@ namespace HMIS.API.Controllers
             _unitOfWork.Staff.Update(existingStaff);
             _unitOfWork.Save();
 
-            return Ok(new { StaffID = staffId, Message = "Staff updated successfully." });
+            return Ok(new { StaffID = staffId, Message = "Staff deleted successfully." });
         }
 
 
