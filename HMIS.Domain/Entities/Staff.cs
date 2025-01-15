@@ -51,6 +51,9 @@ namespace HMIS.Domain.Entities
         [MaxLength(50)]
         public string? Shift { get; set; } // Work Shift Details
 
+
+        [MaxLength(1000)]
+        public string? Description { get; set; }
         public DateTime? DateOfBirth { get; set; }
 
         [MaxLength(50)]
