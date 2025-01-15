@@ -23,7 +23,7 @@ namespace HMIS.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetStaffById(int id)
+        public IActionResult GetStaffById(long id)
         {
             var docFromRepo = _unitOfWork.Staff.GetById(id);
             return Ok(docFromRepo);
@@ -55,26 +55,31 @@ namespace HMIS.API.Controllers
                 Directory.CreateDirectory(staffPicPath);
 
                 // Process documents
-                foreach (var file in request.Files)
+                if (request.Files != null)
                 {
-                    var uniqueFileName = $"{Path.GetFileNameWithoutExtension(file.FileName)}_{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-                    var filePath = Path.Combine(staffProfilePath, uniqueFileName);
-
-                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    if (request.Files.Count() > 0)
                     {
-                        await file.CopyToAsync(fileStream);
+                        foreach (var file in request.Files)
+                        {
+                            var uniqueFileName = $"{Path.GetFileNameWithoutExtension(file.FileName)}_{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+                            var filePath = Path.Combine(staffProfilePath, uniqueFileName);
+
+                            using (var fileStream = new FileStream(filePath, FileMode.Create))
+                            {
+                                await file.CopyToAsync(fileStream);
+                            }
+
+                            var staffDocument = new StaffDocument
+                            {
+                                StaffId = doc.StaffID,
+                                DocumentName = System.IO.Path.GetFileNameWithoutExtension(file.FileName),
+                                DocumentPath = filePath
+                            };
+
+                            _unitOfWork.StaffDocument.Add(staffDocument);
+                        }
                     }
-
-                    var staffDocument = new StaffDocument
-                    {
-                        StaffId = doc.StaffID,
-                        DocumentName = System.IO.Path.GetFileNameWithoutExtension(file.FileName),
-                        DocumentPath = filePath
-                    };
-
-                    _unitOfWork.StaffDocument.Add(staffDocument);
                 }
-
                 // Process staff picture
                 if (request.StaffPic != null)
                 {
@@ -91,8 +96,8 @@ namespace HMIS.API.Controllers
                 }
 
                 _unitOfWork.Save();
-
-                return Ok(doc.StaffID);
+                return Ok(new { StaffID = doc.StaffID, Message = "Staff added successfully." });
+               
             }
             catch (Exception ex)
             {
@@ -129,7 +134,7 @@ namespace HMIS.API.Controllers
 
 
     [HttpDelete("DeleteStaff")]
-        public IActionResult DeleteStaff(int staffId)
+        public IActionResult DeleteStaff(long staffId)
         {
             
             // Optionally, you could check if the Staff record exists before updating

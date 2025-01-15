@@ -11,7 +11,7 @@ namespace HMIS.Domain.Entities
     {
         [Key]
         public int StaffDocumentId { get; set; }
-        public int StaffId { get; set; } 
+        public long? StaffId { get; set; } 
         public string? DocumentName { get; set; } 
         public string? DocumentPath { get; set; } 
         

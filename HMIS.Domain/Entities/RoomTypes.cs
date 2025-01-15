@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace HMIS.Domain.Entities
 {
+   
     public class RoomTypes
     {
         [Key]

@@ -73,7 +73,10 @@ namespace HMIS.DataAccess.Implementation
         {
             return _context.Set<T>().Find(id);
         }
-
+        public T GetById(long id)
+        {
+            return _context.Set<T>().Find(id);
+        }
         public async Task<IEnumerable<T>> GetPagedAsync(int pageNumber, int pageSize)
         {
             return await _context.Set<T>().Skip((pageNumber - 1) * pageSize)

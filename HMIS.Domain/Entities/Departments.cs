@@ -15,8 +15,6 @@ namespace HMIS.Domain.Entities
 
         public string? DepartmentName { get; set; }
 
-        public DateTime? DepartmentDate { get; set; }
-
         public string? DepartmentHead { get; set; } // The Name of Department Head
 
         public string? Description { get; set; }   // The Description of department e.g. Gynacology, Surgical etc
@@ -25,4 +23,5 @@ namespace HMIS.Domain.Entities
 
 
     }
+
 }

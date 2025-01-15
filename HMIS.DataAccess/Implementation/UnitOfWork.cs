@@ -27,6 +27,7 @@ namespace HMIS.DataAccess.Implementation
             BloodStorage = new BloodStorageRepository(_context);
             InsuranceProvider = new InsuranceProviderRepository(_context);
             Holiday = new HolidayRepository(_context);
+            UserType = new UserTypeRepository(_context);
             AmbulanceCallList = new AmbulanceCallListRepository(_context);
         }
         public IDoctorRepository Doctor { get; private set; }
@@ -37,6 +38,9 @@ namespace HMIS.DataAccess.Implementation
 
 
         public IUserRepository UserMaster { get; private set; }
+
+
+        public IUserTypeRepository UserType { get; private set; }
         public IRoleMasterRepository RoleMaster { get; private set; }
         public INavItemRepository NavItem { get; private set; }
 

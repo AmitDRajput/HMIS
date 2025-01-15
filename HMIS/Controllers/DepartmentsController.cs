@@ -50,6 +50,23 @@ namespace HMIS.API.Controllers
             return Ok(departments.DepartmentId);
         }
 
+        [HttpDelete("DeleteDepartment")]
+        public IActionResult DeleteDepartment(int deptId)
+        {
 
+            // Optionally, you could check if the Staff record exists before updating
+            var existingStaff = _unitOfWork.Departments.GetById(deptId);
+            if (existingStaff == null)
+            {
+                return NotFound($"Dept with ID {deptId} not found.");
+            }
+
+            // Update the Staff information
+            existingStaff.IsActive = false;
+            _unitOfWork.Departments.Update(existingStaff);
+            _unitOfWork.Save();
+
+            return Ok(new { DeptId = deptId, Message = "Department deleted successfully." });
+        }
     }
 }

@@ -15,6 +15,8 @@ namespace HMIS.Domain.Repository
 
         IUserRepository UserMaster { get; }
 
+        IUserTypeRepository UserType { get; }
+
         IRoleMasterRepository RoleMaster { get; }
 
         INavItemRepository NavItem { get; }
