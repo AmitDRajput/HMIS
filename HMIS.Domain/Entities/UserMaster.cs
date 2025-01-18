@@ -14,15 +14,24 @@ namespace HMIS.Domain.Entities
         public string Username { get; set; }
         public string? Email { get; set; }
         public string Password { get; set; }
+
+        public long StaffId { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
-        public string? EmailConfirmed { get; set; } = string.Empty;
         public string? Role { get; set; } = string.Empty;
 
         public bool IsActive { get; set; }
 
 
     }
+    public class Permissions
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string? FormName { get; set; }
+    }
+
 
     public class UserMasterDTO
     {
