@@ -45,7 +45,31 @@ namespace HMIS.API.Controllers
             _unitOfWork.BloodDonor.Update(BloodDonor);
             _unitOfWork.Save();
             return Ok(BloodDonor.BloodDonorID);
+
+
+
         }
+
+        [HttpDelete("DeleteBloodDonor")]
+        public IActionResult DeleteBloodDonor(long BloodDonorId)
+        {
+
+            // Optionally, you could check if the BloodDonor record exists before updating
+            var existingBloodDonor = _unitOfWork.BloodDonor.GetById(BloodDonorId);
+            if (existingBloodDonor == null)
+            {
+                return NotFound($"BloodDonor with ID {BloodDonorId} not found.");
+            }
+
+            // Update the BloodDonor information
+            existingBloodDonor.IsActive = false;
+            _unitOfWork.BloodDonor.Update(existingBloodDonor);
+            _unitOfWork.Save();
+
+            return Ok(new { BloodDonorID = BloodDonorId, Message = "BloodDonor deleted successfully." });
+        }
+
+
 
     }
 }

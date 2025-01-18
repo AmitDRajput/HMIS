@@ -101,7 +101,31 @@ namespace HMIS.API.Controllers
 
             // 6. Return the Patient ID as a response
             return Ok(doc.PatientID);
+
+
+
         }
+
+        [HttpDelete("DeletePatient")]
+        public IActionResult DeletePatient(long PatientId)
+        {
+
+            // Optionally, you could check if the Patient record exists before updating
+            var existingPatient = _unitOfWork.Patient.GetById(PatientId);
+            if (existingPatient == null)
+            {
+                return NotFound($"Patient with ID {PatientId} not found.");
+            }
+
+            // Update the Patient information
+            existingPatient.IsActive = false;
+            _unitOfWork.Patient.Update(existingPatient);
+            _unitOfWork.Save();
+
+            return Ok(new { PatientID = PatientId, Message = "Patient deleted successfully." });
+        }
+
+
 
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {}
+    "D:\\HMIS-18-01\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {}
   },
   "projects": {
-    "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {
+    "D:\\HMIS-18-01\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+        "projectUniqueName": "D:\\HMIS-18-01\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
         "projectName": "HMIS.Domain",
-        "projectPath": "D:\\ARYA\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ARYA\\HMIS\\HMIS.Domain\\obj\\",
+        "projectPath": "D:\\HMIS-18-01\\HMIS\\HMIS.Domain\\HMIS.Domain.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\HMIS-18-01\\HMIS\\HMIS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

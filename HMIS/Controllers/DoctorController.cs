@@ -39,5 +39,26 @@ namespace HMIS.API.Controllers
             return Ok(doc.DoctorID);
         }
 
+        [HttpDelete("DeleteDoctor")]
+        public IActionResult DeleteDoctor(long DoctorId)
+        {
+
+            // Optionally, you could check if the Doctor record exists before updating
+            var existingDoctor = _unitOfWork.Doctor.GetById(DoctorId);
+            if (existingDoctor == null)
+            {
+                return NotFound($"Doctor with ID {DoctorId} not found.");
+            }
+
+            // Update the Doctor information
+            existingDoctor.IsActive = false;
+            _unitOfWork.Doctor.Update(existingDoctor);
+            _unitOfWork.Save();
+
+            return Ok(new { DoctorID = DoctorId, Message = "Doctor deleted successfully." });
+        }
+
+
+
     }
 }

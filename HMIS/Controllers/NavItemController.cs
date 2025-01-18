@@ -53,5 +53,26 @@ namespace HMIS.API.Controllers
             return Ok();
         }
 
+        [HttpDelete("DeleteNavItem")]
+        public IActionResult DeleteNavItem(long NavItemId)
+        {
+
+            // Optionally, you could check if the NavItem record exists before updating
+            var existingNavItem = _unitOfWork.NavItem.GetById(NavItemId);
+            if (existingNavItem == null)
+            {
+                return NotFound($"NavItem with ID {NavItemId} not found.");
+            }
+
+            // Update the NavItem information
+            existingNavItem.IsActive = false;
+            _unitOfWork.NavItem.Update(existingNavItem);
+            _unitOfWork.Save();
+
+            return Ok(new { NavItemID = NavItemId, Message = "NavItem deleted successfully." });
+        }
+
+
+
     }
 }

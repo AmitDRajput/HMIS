@@ -46,6 +46,30 @@ namespace HMIS.API.Controllers
             _unitOfWork.Save();
             return Ok(AmbulanceCallList.AmbulanceID);
         }
+
+
+        [HttpDelete("DeleteAmbulanceCallList")]
+        public IActionResult DeleteStaff(long AmbulanceCallListId)
+        {
+
+            // Optionally, you could check if the AmbulanceCallList record exists before updating
+            var existingAmbulanceCallList = _unitOfWork.AmbulanceCallList.GetById(AmbulanceCallListId);
+            if (existingAmbulanceCallList == null)
+            {
+                return NotFound($"AmbulanceCallList with ID {AmbulanceCallListId} not found.");
+            }
+
+            // Update the AmbulanceCallList information
+            existingAmbulanceCallList.IsActive = false;
+            _unitOfWork.AmbulanceCallList.Update(existingAmbulanceCallList);
+            _unitOfWork.Save();
+
+            return Ok(new { AmbulanceCallListID = AmbulanceCallListId, Message = "AmbulanceCallList deleted successfully." });
+        }
+
+
+
+
     }
 
 

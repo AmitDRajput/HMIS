@@ -47,5 +47,26 @@ namespace HMIS.API.Controllers
             _unitOfWork.Save();
             return Ok(BloodStorage.BloodStorageId);
         }
+
+        [HttpDelete("DeleteBloodStorage")]
+        public IActionResult DeleteBloodStorage(long BloodStorageId)
+        {
+
+            // Optionally, you could check if the BloodStorage record exists before updating
+            var existingBloodStorage = _unitOfWork.BloodStorage.GetById(BloodStorageId);
+            if (existingBloodStorage == null)
+            {
+                return NotFound($"BloodStorage with ID {BloodStorageId} not found.");
+            }
+
+            // Update the BloodStorage information
+            existingBloodStorage.IsActive = false;
+            _unitOfWork.BloodStorage.Update(existingBloodStorage);
+            _unitOfWork.Save();
+
+            return Ok(new { BloodStorageID = BloodStorageId, Message = "BloodStorage deleted successfully." });
+        }
+
+
     }
 }

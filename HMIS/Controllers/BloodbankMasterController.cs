@@ -47,5 +47,28 @@ namespace HMIS.API.Controllers
             _unitOfWork.Save();
             return Ok(BloodbankMaster.BloodbankMasterID);
         }
+
+        [HttpDelete("DeleteBloodbankMaster")]
+        public IActionResult DeleteBloodbankMaster(long BloodbankMasterId)
+        {
+
+            // Optionally, you could check if the BloodbankMaster record exists before updating
+            var existingBloodbankMaster = _unitOfWork.BloodbankMaster.GetById(BloodbankMasterId);
+            if (existingBloodbankMaster == null)
+            {
+                return NotFound($"BloodbankMaster with ID {BloodbankMasterId} not found.");
+            }
+
+            // Update the BloodbankMaster information
+            existingBloodbankMaster.IsActive = false;
+            _unitOfWork.BloodbankMaster.Update(existingBloodbankMaster);
+            _unitOfWork.Save();
+
+            return Ok(new { BloodbankMasterID = BloodbankMasterId, Message = "BloodbankMaster deleted successfully." });
+        }
+
+
+
+
     }
 }

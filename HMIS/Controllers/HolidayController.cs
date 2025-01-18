@@ -49,6 +49,26 @@ namespace HMIS.API.Controllers
             return Ok(Holiday.HolidayID);
         }
 
+        [HttpDelete("DeleteHoliday")]
+        public IActionResult DeleteHoliday(long HolidayId)
+        {
+
+            // Optionally, you could check if the Holiday record exists before updating
+            var existingHoliday = _unitOfWork.Holiday.GetById(HolidayId);
+            if (existingHoliday == null)
+            {
+                return NotFound($"Holiday with ID {HolidayId} not found.");
+            }
+
+            // Update the Holiday information
+            existingHoliday.IsActive = false;
+            _unitOfWork.Holiday.Update(existingHoliday);
+            _unitOfWork.Save();
+
+            return Ok(new { HolidayID = HolidayId, Message = "Holiday deleted successfully." });
+        }
+
+
 
     }
 }

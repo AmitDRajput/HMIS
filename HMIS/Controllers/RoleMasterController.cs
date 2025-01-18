@@ -50,5 +50,25 @@ namespace HMIS.API.Controllers
             return Ok(roleMst.RoleMasterId);
         }
 
+
+        [HttpDelete("DeleteRole")]
+        public IActionResult DeleteRole(long RoleId)
+        {
+
+            // Optionally, you could check if the RoleMaster record exists before updating
+            var existingRole = _unitOfWork.RoleMaster.GetById(RoleId);
+            if (existingRole == null)
+            {
+                return NotFound($"Role with ID {RoleId} not found.");
+            }
+
+            // Update the RoleMaster information
+            existingRole.IsActive = false;
+            _unitOfWork.RoleMaster.Update(existingRole);
+            _unitOfWork.Save();
+
+            return Ok(new { RoleID = RoleId, Message = "RoleMaster deleted successfully." });
+        }
+
     }
 }

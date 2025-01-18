@@ -177,6 +177,25 @@ namespace HMIS.API.Controllers
             return Ok(new { AppointmentID = id, Status = "Canceled" });
         }
 
+        [HttpDelete("DeleteAppointment")]
+        public IActionResult DeleteAppointment(long AppointmentId)
+        {
+
+            // Optionally, you could check if the Appointment record exists before updating
+            var existingAppointment = _unitOfWork.Appointment.GetById(AppointmentId);
+            if (existingAppointment == null)
+            {
+                return NotFound($"Appointment with ID {AppointmentId} not found.");
+            }
+
+            // Update the Appointment information
+            existingAppointment.IsActive = false;
+            _unitOfWork.Appointment.Update(existingAppointment);
+            _unitOfWork.Save();
+
+            return Ok(new { AppointmentID = AppointmentId, Message = "Appointment deleted successfully." });
+        }
+
 
     }
 }

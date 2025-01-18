@@ -46,6 +46,26 @@ namespace HMIS.API.Controllers
             _unitOfWork.Save();
             return Ok(InsuranceProvider.InsuranceProviderID);
         }
+
+        [HttpDelete("DeleteInsuranceProvider")]
+        public IActionResult DeleteInsuranceProvider(long InsuranceProviderId)
+        {
+
+            // Optionally, you could check if the InsuranceProvider record exists before updating
+            var existingInsuranceProvider = _unitOfWork.InsuranceProvider.GetById(InsuranceProviderId);
+            if (existingInsuranceProvider == null)
+            {
+                return NotFound($"InsuranceProvider with ID {InsuranceProviderId} not found.");
+            }
+
+            // Update the InsuranceProvider information
+            existingInsuranceProvider.IsActive = false;
+            _unitOfWork.InsuranceProvider.Update(existingInsuranceProvider);
+            _unitOfWork.Save();
+
+            return Ok(new { InsuranceProviderID = InsuranceProviderId, Message = "InsuranceProvider deleted successfully." });
+        }
+
     }
 
 

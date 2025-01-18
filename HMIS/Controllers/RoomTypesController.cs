@@ -75,24 +75,24 @@ namespace HMIS.API.Controllers
             return Ok(new { RoomTypesId = existingRoomType.RoomTypesId });
         }
 
-        //[HttpDelete("DeleteRoomTypes/{id}")]
-        //public IActionResult DeleteRoomTypes(int id)
-        //{
-        //    // Check if the roomType exists in the database
-        //    var roomType = _unitOfWork.RoomTypes.GetById(id); // Ensure GetById() is implemented
+        [HttpDelete("DeleteRoomTypes")]
+        public IActionResult DeleteRole(long RoomTypesId)
+        {
 
-        //    if (roomType == null)
-        //    {
-        //        return NotFound(new { Message = $"RoomType with id {id} not found." });
-        //    }
+            // Optionally, you could check if the RoomTypes record exists before updating
+            var existingRoomTypes = _unitOfWork.RoomTypes.GetById(RoomTypesId);
+            if (existingRoomTypes == null)
+            {
+                return NotFound($"Role with ID {RoomTypesId} not found.");
+            }
 
-        //    // Delete the roomType from the database
-        //    _unitOfWork.RoomTypes.Delete(roomType); // Ensure Delete() is implemented
-        //    _unitOfWork.Save(); // Save changes to the database
+            // Update the RoomTypes information
+            existingRoomTypes.IsActive = false;
+            _unitOfWork.RoomTypes.Update(existingRoomTypes);
+            _unitOfWork.Save();
 
-        //    // Return success message
-        //    return Ok(new { Message = $"RoomType with id {id} has been deleted." });
-        //}
+            return Ok(new { RoomTypesId = RoomTypesId, Message = "RoomTypes deleted successfully." });
+        }
 
 
 
