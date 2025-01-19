@@ -32,6 +32,7 @@ namespace HMIS.API.Controllers
         [HttpPost("CreateNavItem")]
         public IActionResult CreateNavItem(NavItem nav)
         {
+            nav.IsActive = true;
             _unitOfWork.NavItem.Add(nav);
             _unitOfWork.Save();
             return Ok(nav.Id);
@@ -40,18 +41,31 @@ namespace HMIS.API.Controllers
         [HttpPost("UpdateNavItem")]
         public IActionResult UpdateNavItem(NavItem nav)
         {
+            nav.IsActive = true;
             _unitOfWork.NavItem.Update(nav);
             _unitOfWork.Save();
             return Ok(nav.Id);
         }
 
-        [HttpPost("DeleteNavItem")]
-        public IActionResult DeleteNavItem(NavItem appt)
+        [HttpDelete("DeleteNavItem")]
+        public IActionResult DeleteNavItem(int Id)
         {
-            _unitOfWork.NavItem.Remove(appt);
+
+            // Optionally, you could check if the Staff record exists before updating
+            var existingStaff = _unitOfWork.NavItem.GetById(Id);
+            if (existingStaff == null)
+            {
+                return NotFound($"Navitem with ID {Id} not found.");
+            }
+
+            // Update the Staff information
+            existingStaff.IsActive = false;
+            _unitOfWork.NavItem.Update(existingStaff);
             _unitOfWork.Save();
-            return Ok();
+
+            return Ok(new { NavID = Id, Message = "Navitem deleted successfully." });
         }
 
+       
     }
 }
