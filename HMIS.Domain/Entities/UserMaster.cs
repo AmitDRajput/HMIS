@@ -14,8 +14,8 @@ namespace HMIS.Domain.Entities
         public string Username { get; set; }
         public string? Email { get; set; }
         public string Password { get; set; }
-
-        public long StaffId { get; set; }
+        public int? RoleMasterId { get; set; }
+        public long? StaffId { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Role { get; set; } = string.Empty;
