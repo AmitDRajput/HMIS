@@ -49,6 +49,11 @@ namespace HMIS.DataAccess.Context
         public DbSet<Holiday> Holiday{ get; set; }
 
         public DbSet<AmbulanceCallList> ambulanceCallList { get; set; }
+
+
+        public DbSet<BranchMaster> BranchMaster { get; set; }
+
+        public DbSet<LeaveMaster> leaveMaster { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configure relationships, keys, etc.
