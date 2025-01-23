@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HMIS.Domain/1.0.0": {
+        "runtime": {
+          "HMIS.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HMIS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

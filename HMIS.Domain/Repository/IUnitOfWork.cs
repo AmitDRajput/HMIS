@@ -42,8 +42,11 @@ namespace HMIS.Domain.Repository
 
         IAmbulanceCallListRepository AmbulanceCallList { get; }
 
-        IMenuRepository Menus { get; }
+IMenuRepository Menus { get; }
         IMenuRoleRepository MenuRoles { get; }
+        IBranchMasterRepository BranchMaster { get; }
+
+        ILeaveMasterRepository LeaveMaster { get; }
 
         //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();
