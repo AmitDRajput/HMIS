@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMIS.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b33841894ff8179061c5f351db22bf9662eb025")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a88512e3a4949a93f94e859bd2b51ae4d130c219")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMIS.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMIS.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
