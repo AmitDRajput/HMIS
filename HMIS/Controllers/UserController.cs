@@ -66,6 +66,7 @@ namespace HMIS.API.Controllers
         public IActionResult CreateUser(UserMaster doc)
         {
             _unitOfWork.UserMaster.Add(doc);
+            _unitOfWork.Save();
             return Ok(doc.Id);
         }
         [HttpDelete("DeleteUser")]

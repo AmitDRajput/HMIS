@@ -1,6 +1,7 @@
 ﻿using HMIS.API.Service;
 using HMIS.Domain.Entities;
 using HMIS.Domain.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace HMIS.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class HolidayController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -49,8 +51,8 @@ namespace HMIS.API.Controllers
             return Ok(Holiday.HolidayID);
         }
 
-        [HttpDelete("DeleteHoliday")]
-        public IActionResult DeleteHoliday(long HolidayId)
+        [HttpDelete("DeleteHoliday/{HolidayId}")]
+        public IActionResult DeleteHoliday(int HolidayId)
         {
 
             // Optionally, you could check if the Holiday record exists before updating

@@ -33,7 +33,8 @@ namespace HMIS.DataAccess.Context
         public DbSet<Admission> Admissions { get; set; }
 
         public DbSet<UserMaster> UserMaster { get; set; }
-
+        public DbSet<Menu> Menus { get; set; }
+        public DbSet<MenuRole> MenuRoles { get; set; }
         public DbSet<RoomTypes> roomTypes { get; set; }
 
         public DbSet<Departments> departments { get; set; }
@@ -51,6 +52,19 @@ namespace HMIS.DataAccess.Context
         public DbSet<AmbulanceCallList> ambulanceCallList { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<MenuRole>()
+           .HasKey(mr => new { mr.MenuId, mr.RoleMasterId });
+
+            modelBuilder.Entity<MenuRole>()
+                .HasOne(mr => mr.Menu)
+                .WithMany(m => m.MenuRoles)
+                .HasForeignKey(mr => mr.MenuId);
+
+            modelBuilder.Entity<MenuRole>()
+                .HasOne(mr => mr.RoleMaster)
+                .WithMany(rm => rm.MenuRoles)
+                .HasForeignKey(mr => mr.RoleMasterId);
+
             // Configure relationships, keys, etc.
             //modelBuilder.Entity<Appointment>()
             //    .HasOne(a => a.Patient)

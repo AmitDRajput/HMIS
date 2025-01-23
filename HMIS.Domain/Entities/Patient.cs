@@ -11,6 +11,7 @@ namespace HMIS.Domain.Entities
     {
         [Key]
         public long PatientID { get; set; }       // Primary key
+       
         public string FirstName { get; set; }    // First name of the patient
         public string LastName { get; set; }     // Last name of the patient
         public DateTime DateOfBirth { get; set; } // Date of birth

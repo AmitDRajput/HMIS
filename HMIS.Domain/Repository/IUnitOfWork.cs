@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HMIS.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,6 +41,9 @@ namespace HMIS.Domain.Repository
         IHolidayRepository Holiday { get; }
 
         IAmbulanceCallListRepository AmbulanceCallList { get; }
+
+        IMenuRepository Menus { get; }
+        IMenuRoleRepository MenuRoles { get; }
 
         //IRoomAllotmentRepository RoomAllotment { get; }
         int Save();
