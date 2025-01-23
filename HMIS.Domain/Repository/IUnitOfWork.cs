@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HMIS.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,8 @@ namespace HMIS.Domain.Repository
 
         IAmbulanceCallListRepository AmbulanceCallList { get; }
 
+IMenuRepository Menus { get; }
+        IMenuRoleRepository MenuRoles { get; }
         IBranchMasterRepository BranchMaster { get; }
 
         ILeaveMasterRepository LeaveMaster { get; }

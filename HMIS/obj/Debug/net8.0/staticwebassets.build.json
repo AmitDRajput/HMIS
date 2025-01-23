@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BY38JaofpxchwxcU6xrtTGSdtMiUvO8/9T1V+R1kcSQ=",
+  "Hash": "02ygxy8J2RyQfTO4XrHKDhJ+/3rUx6aBCmnLcvwx+HM=",
   "Source": "HMIS.API",
   "BasePath": "_content/HMIS.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HMIS.API\\wwwroot",
       "Source": "HMIS.API",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\10\\Screenshot 2024-10-14 182934_895b3855-39de-4c44-8bc3-79f5b1faf48b.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\10\\Screenshot 2024-10-14 182934_895b3855-39de-4c44-8bc3-79f5b1faf48b.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/10/Screenshot 2024-10-14 182934_895b3855-39de-4c44-8bc3-79f5b1faf48b.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\10\\Screenshot 2024-10-14 182934_895b3855-39de-4c44-8bc3-79f5b1faf48b.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\11\\Screenshot 2024-10-14 182934_b88530a1-567d-403a-a7a0-4b62885864e2.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\11\\Screenshot 2024-10-14 182934_b88530a1-567d-403a-a7a0-4b62885864e2.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/11/Screenshot 2024-10-14 182934_b88530a1-567d-403a-a7a0-4b62885864e2.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\11\\Screenshot 2024-10-14 182934_b88530a1-567d-403a-a7a0-4b62885864e2.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\12\\Screenshot 2024-10-14 182934_b1aaa0fb-0a74-465a-922d-a21bf4ffe7f8.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\12\\Screenshot 2024-10-14 182934_b1aaa0fb-0a74-465a-922d-a21bf4ffe7f8.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/12/Screenshot 2024-10-14 182934_b1aaa0fb-0a74-465a-922d-a21bf4ffe7f8.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\12\\Screenshot 2024-10-14 182934_b1aaa0fb-0a74-465a-922d-a21bf4ffe7f8.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\13\\Screenshot 2024-10-14 182934_9f9e3ef8-a2a6-4e34-b25b-b92a8c6fc426.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\13\\Screenshot 2024-10-14 182934_9f9e3ef8-a2a6-4e34-b25b-b92a8c6fc426.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/13/Screenshot 2024-10-14 182934_9f9e3ef8-a2a6-4e34-b25b-b92a8c6fc426.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\13\\Screenshot 2024-10-14 182934_9f9e3ef8-a2a6-4e34-b25b-b92a8c6fc426.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\14\\Screenshot 2024-10-14 182934_4a8572e2-b20a-4609-956e-6f9423b8f5cf.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\14\\Screenshot 2024-10-14 182934_4a8572e2-b20a-4609-956e-6f9423b8f5cf.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/14/Screenshot 2024-10-14 182934_4a8572e2-b20a-4609-956e-6f9423b8f5cf.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\14\\Screenshot 2024-10-14 182934_4a8572e2-b20a-4609-956e-6f9423b8f5cf.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\15\\Screenshot 2024-10-07 131630_2ef2c123-3c9e-4897-9fb4-c623146a33f4.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\15\\Screenshot 2024-10-07 131630_2ef2c123-3c9e-4897-9fb4-c623146a33f4.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/15/Screenshot 2024-10-07 131630_2ef2c123-3c9e-4897-9fb4-c623146a33f4.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\15\\Screenshot 2024-10-07 131630_2ef2c123-3c9e-4897-9fb4-c623146a33f4.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\7\\Screenshot 2024-10-14 164234_900ec6b7-1d2e-4d83-8e37-c3539d104fa7.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\7\\Screenshot 2024-10-14 164234_900ec6b7-1d2e-4d83-8e37-c3539d104fa7.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/7/Screenshot 2024-10-14 164234_900ec6b7-1d2e-4d83-8e37-c3539d104fa7.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\7\\Screenshot 2024-10-14 164234_900ec6b7-1d2e-4d83-8e37-c3539d104fa7.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\8\\Screenshot 2024-10-14 164234_f96a7bae-30e0-47c2-bd16-1dc42e74cf67.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\8\\Screenshot 2024-10-14 164234_f96a7bae-30e0-47c2-bd16-1dc42e74cf67.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/8/Screenshot 2024-10-14 164234_f96a7bae-30e0-47c2-bd16-1dc42e74cf67.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\8\\Screenshot 2024-10-14 164234_f96a7bae-30e0-47c2-bd16-1dc42e74cf67.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\9\\Screenshot 2024-10-14 182934_5c15e27b-a7e1-4df4-8ab2-80bfb150c59a.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffPic\\9\\Screenshot 2024-10-14 182934_5c15e27b-a7e1-4df4-8ab2-80bfb150c59a.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffPic/9/Screenshot 2024-10-14 182934_5c15e27b-a7e1-4df4-8ab2-80bfb150c59a.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffPic\\9\\Screenshot 2024-10-14 182934_5c15e27b-a7e1-4df4-8ab2-80bfb150c59a.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\10\\Screenshot 2024-10-03 152602_44763bb1-aa5f-4aaf-8aff-6f6ce6715cb7.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\10\\Screenshot 2024-10-03 152602_44763bb1-aa5f-4aaf-8aff-6f6ce6715cb7.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/10/Screenshot 2024-10-03 152602_44763bb1-aa5f-4aaf-8aff-6f6ce6715cb7.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\10\\Screenshot 2024-10-03 152602_44763bb1-aa5f-4aaf-8aff-6f6ce6715cb7.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\11\\Screenshot 2024-10-03 152602_ac29723d-72f6-429b-953f-20d001aeda19.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\11\\Screenshot 2024-10-03 152602_ac29723d-72f6-429b-953f-20d001aeda19.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/11/Screenshot 2024-10-03 152602_ac29723d-72f6-429b-953f-20d001aeda19.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\11\\Screenshot 2024-10-03 152602_ac29723d-72f6-429b-953f-20d001aeda19.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\12\\Screenshot 2024-10-03 152602_b06fb3cd-0416-4043-bbed-e095177f6875.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\12\\Screenshot 2024-10-03 152602_b06fb3cd-0416-4043-bbed-e095177f6875.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/12/Screenshot 2024-10-03 152602_b06fb3cd-0416-4043-bbed-e095177f6875.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\12\\Screenshot 2024-10-03 152602_b06fb3cd-0416-4043-bbed-e095177f6875.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\13\\Screenshot 2024-10-03 152602_4028cbdb-61d3-4cf2-8b14-dc839dd07e77.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\13\\Screenshot 2024-10-03 152602_4028cbdb-61d3-4cf2-8b14-dc839dd07e77.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/13/Screenshot 2024-10-03 152602_4028cbdb-61d3-4cf2-8b14-dc839dd07e77.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\13\\Screenshot 2024-10-03 152602_4028cbdb-61d3-4cf2-8b14-dc839dd07e77.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\14\\Screenshot 2024-10-03 152602_1443ab1c-049c-43f6-ba1c-cf7cee80f6c5.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\14\\Screenshot 2024-10-03 152602_1443ab1c-049c-43f6-ba1c-cf7cee80f6c5.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/14/Screenshot 2024-10-03 152602_1443ab1c-049c-43f6-ba1c-cf7cee80f6c5.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\14\\Screenshot 2024-10-03 152602_1443ab1c-049c-43f6-ba1c-cf7cee80f6c5.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\15\\Screenshot 2024-10-03 152602_718cb3ff-980d-4c50-b3cc-99d21443d5ab.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\15\\Screenshot 2024-10-03 152602_718cb3ff-980d-4c50-b3cc-99d21443d5ab.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/15/Screenshot 2024-10-03 152602_718cb3ff-980d-4c50-b3cc-99d21443d5ab.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\15\\Screenshot 2024-10-03 152602_718cb3ff-980d-4c50-b3cc-99d21443d5ab.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-05 183937_0cce57f2-4e5a-4be9-9dc9-140ae8949d0d.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-05 183937_0cce57f2-4e5a-4be9-9dc9-140ae8949d0d.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/7/Screenshot 2024-10-05 183937_0cce57f2-4e5a-4be9-9dc9-140ae8949d0d.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-05 183937_0cce57f2-4e5a-4be9-9dc9-140ae8949d0d.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-07 131630_3f0dbd0a-3062-4d2c-a267-28b90981a87e.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-07 131630_3f0dbd0a-3062-4d2c-a267-28b90981a87e.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/7/Screenshot 2024-10-07 131630_3f0dbd0a-3062-4d2c-a267-28b90981a87e.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\7\\Screenshot 2024-10-07 131630_3f0dbd0a-3062-4d2c-a267-28b90981a87e.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-05 183937_54ff222c-90da-45b9-bc2e-e601139b5161.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-05 183937_54ff222c-90da-45b9-bc2e-e601139b5161.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/8/Screenshot 2024-10-05 183937_54ff222c-90da-45b9-bc2e-e601139b5161.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-05 183937_54ff222c-90da-45b9-bc2e-e601139b5161.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-07 131630_4d8ddb13-3cbc-4ae6-a34f-6143b5c38f76.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-07 131630_4d8ddb13-3cbc-4ae6-a34f-6143b5c38f76.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/8/Screenshot 2024-10-07 131630_4d8ddb13-3cbc-4ae6-a34f-6143b5c38f76.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\HmisDocs\\StaffProfile\\8\\Screenshot 2024-10-07 131630_4d8ddb13-3cbc-4ae6-a34f-6143b5c38f76.png"
     },
     {
-      "Identity": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\9\\Screenshot 2024-10-03 152602_bbebcbeb-cc22-42a1-9cc5-adb2588e354d.png",
+      "Identity": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\HmisDocs\\StaffProfile\\9\\Screenshot 2024-10-03 152602_bbebcbeb-cc22-42a1-9cc5-adb2588e354d.png",
       "SourceId": "HMIS.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HMIS-18-01\\HMIS\\HMIS\\wwwroot\\",
+      "ContentRoot": "D:\\ARYA\\HMIS\\HMIS\\wwwroot\\",
       "BasePath": "_content/HMIS.API",
       "RelativePath": "HmisDocs/StaffProfile/9/Screenshot 2024-10-03 152602_bbebcbeb-cc22-42a1-9cc5-adb2588e354d.png",
       "AssetKind": "All",

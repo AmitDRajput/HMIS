@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace HMIS.API.Controllers
 {
@@ -18,19 +19,19 @@ namespace HMIS.API.Controllers
         private readonly IUnitOfWork _unitOfWork;
         public AppointmentController(IUnitOfWork unitOfWork)
         {
-        _unitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork;
         }
 
         // Admin and Patient can view appointments
-        [HttpGet("GetAppointmentById/{id}")] 
-        // [Authorize(Roles = "Admin,Patient")] // Both Admin and Patient can access this
+        [HttpGet("GetAppointmentById/{id}")]
+        [Authorize(Roles = "Admin,Patient")] // Both Admin and Patient can access this
 
         //public IActionResult GetAppointmentById(int id)
         //{
         //    var docFromRepo = _unitOfWork.Appointment.GetById(id);
         //    return Ok(docFromRepo);
         //}
-        //10/01/2024
+        //10/01/2025
 
         public IActionResult GetAppointmentById(int id)
         {
@@ -58,7 +59,7 @@ namespace HMIS.API.Controllers
 
         // Admin can view all active appointments; Patients can view their own active appointments
         [HttpGet("GetAppointments")]
-       // [Authorize(Roles = "Admin,Patient")]
+        [Authorize(Roles = "Admin,Patient")]
         public IActionResult GetAppointments()
         {
             if (User.IsInRole("Admin"))
@@ -78,45 +79,107 @@ namespace HMIS.API.Controllers
             return Ok(patientAppointments);
         }
 
-
-        [HttpPost("CreateAppointment")]
-       // [Authorize(Roles = "Admin")]
-        //public IActionResult CreateAppointment(Appointment appt)
+        //*** Running API Commented
+        //[HttpPost("CreateAppointmentByAdmin")]
+        //[Authorize(Roles = "Admin")]
+        //// Admin can create an appointment for any patient
+        //public IActionResult CreateAppointment([FromBody] Appointment appt)
         //{
+        //    if (appt == null)
+        //    {
+        //        return BadRequest("Appointment data is invalid.");
+        //    }
+
         //    _unitOfWork.Appointment.Add(appt);
         //    _unitOfWork.Save();
-        //    return Ok(appt.AppointmentID);
+        //    return Ok(new { AppointmentID = appt.AppointmentID });
         //}
-        // Admin can create an appointment for any patient
-       
-        public IActionResult CreateAppointment([FromBody] Appointment appt)
-        {
-            if (appt == null)
-            {
-                return BadRequest("Appointment data is invalid.");
-            }
 
-            _unitOfWork.Appointment.Add(appt);
-            _unitOfWork.Save();
-            return Ok(new { AppointmentID = appt.AppointmentID });
-        }
+        //[HttpPost("CreateAppointmentByPatient")]
+        //[Authorize(Roles = "Patient")]
+        //public IActionResult CreateAppointmentForPatient([FromBody] Appointment appt)
+        //{
+        //    if (appt == null)
+        //    {
+        //        return BadRequest("Appointment data is invalid.");
+        //    }
 
-        [HttpPost("CreateAppointmentForPatient")]
-       // [Authorize(Roles = "Patient")]
-        public IActionResult CreateAppointmentForPatient([FromBody] Appointment appt)
-        {
-            if (appt == null)
-            {
-                return BadRequest("Appointment data is invalid.");
-            }
+        //    // Set the PatientID to the current user's PatientID
+        //    //appt.PatientID = int.Parse(User.Identity.Name);
 
-            // Set the PatientID to the current user's PatientID
-            //appt.PatientID = int.Parse(User.Identity.Name);
+        //    _unitOfWork.Appointment.Add(appt);
+        //    _unitOfWork.Save();
+        //    return Ok(new { AppointmentID = appt.AppointmentID });
+        //}
+        //
 
-            _unitOfWork.Appointment.Add(appt);
-            _unitOfWork.Save();
-            return Ok(new { AppointmentID = appt.AppointmentID });
-        }
+        //Create Apointment By Admin And Patient
+
+        //[HttpPost("CreateAppointmentByAdmin")]
+        //[Authorize(Roles = "Admin")]
+        //public IActionResult CreateAppointment([FromBody] Appointment appt)
+        //{
+        //    if (appt == null)
+        //    {
+        //        return BadRequest("Appointment data is invalid.");
+        //    }
+
+        //    // Check if the doctor is on leave or holiday for the requested appointment time
+        //    if (IsDoctorOnLeaveOrHoliday(appt.DoctorID, appt.StartTime))
+        //    {
+        //        return BadRequest("The doctor is on leave or holiday during this time.");
+        //    }
+
+        //    // Admin can create an appointment for any patient, no further checks needed for patient
+        //    _unitOfWork.Appointment.Add(appt);
+        //    _unitOfWork.Save();
+
+        //    return Ok(new { AppointmentID = appt.AppointmentID });
+        //}
+
+        //[HttpPost("CreateAppointmentByPatient")]
+        //[Authorize(Roles = "Patient")]
+        //public IActionResult CreateAppointmentForPatient([FromBody] Appointment appt)
+        //{
+        //    if (appt == null)
+        //    {
+        //        return BadRequest("Appointment data is invalid.");
+        //    }
+
+        //    // Set the PatientID to the current user's PatientID (patients can only book appointments for themselves)
+        //    appt.PatientID = int.Parse(User.Identity.Name);
+
+            
+        //    if (IsDoctorOnLeaveOrHoliday(appt.DoctorID, appt.StartTime))
+        //    {
+        //        return BadRequest("The doctor is on leave or holiday during this time.");
+        //    }
+
+        //    _unitOfWork.Appointment.Add(appt);
+        //    _unitOfWork.Save();
+
+        //    return Ok(new { AppointmentID = appt.AppointmentID });
+        //}
+
+        //private bool IsDoctorOnLeaveOrHoliday(int staffId, DateTime startTime)
+        //{
+        //    // Fetch the leave records for the staff member (doctor) based on StaffID
+        //    var leaveRecords = _unitOfWork.LeaveMaster.GetById(staffId); // Using StaffID to get leave records
+
+        //    foreach (var leaveRecord in leaveRecords)
+        //    {
+        //        // Check if the appointment start time falls within the leave or holiday period
+        //        if (startTime >= leaveRecord.StartDate && startTime <= leaveRecord.EndDate)
+        //        {
+        //            return true; // The doctor is on leave or holiday during this time
+        //        }
+        //    }
+
+        //    return false; // The doctor is available (not on leave or holiday)
+        //}
+
+
+
 
 
         [HttpPost("UpdateAppointment")]
@@ -129,7 +192,7 @@ namespace HMIS.API.Controllers
 
         // Admin or Patient can update an appointment (for their own appointments)
         [HttpPut("UpdateAppointment")]
-       // [Authorize(Roles = "Admin,Patient")]
+        [Authorize(Roles = "Admin,Patient")]
         public IActionResult UpdateAppointment([FromBody] Appointment appt)
         {
             if (appt == null)
@@ -155,9 +218,53 @@ namespace HMIS.API.Controllers
         }
 
         // Admin or Patient can cancel an appointment (for their own appointments)
-        [HttpDelete("CancelAppointment/{id}")]
+        //[HttpDelete("CancelAppointment/{id}")]
         //[Authorize(Roles = "Admin,Patient")]
-        public IActionResult CancelAppointment(int id)
+        //public IActionResult CancelAppointment(int id)
+        //{
+        //    var appointment = _unitOfWork.Appointment.GetById(id);
+        //    if (appointment == null)
+        //    {
+        //        return NotFound("Appointment not found.");
+        //    }
+
+        //    // Ensure that a Patient can only cancel their own appointment
+        //    if (User.IsInRole("Patient") && appointment.PatientID != int.Parse(User.Identity.Name))
+        //    {
+        //        return Unauthorized("You can only cancel your own appointments.");
+        //    }
+
+        //    appointment.IsActive = false; // Mark appointment as canceled---- Change
+        //    _unitOfWork.Appointment.Update(appointment);
+        //    _unitOfWork.Save();
+        //    return Ok(new { AppointmentID = id, Status = "Canceled" });
+        //}
+
+        //**** Running Api***// Commented
+        //[HttpDelete("DeleteAppointment")]
+        //public IActionResult DeleteAppointment(long AppointmentId)
+        //{
+
+        //    // Optionally, you could check if the Appointment record exists before updating
+        //    var existingAppointment = _unitOfWork.Appointment.GetById(AppointmentId);
+        //    if (existingAppointment == null)
+        //    {
+        //        return NotFound($"Appointment with ID {AppointmentId} not found.");
+        //    }
+
+        //    // Update the Appointment information
+        //    existingAppointment.IsActive = false;
+        //    _unitOfWork.Appointment.Update(existingAppointment);
+        //    _unitOfWork.Save();
+
+        //    return Ok(new { AppointmentID = AppointmentId, Message = "Appointment deleted successfully." });
+        //}
+
+        //// Running Api--**** Commented
+
+        [HttpDelete("CancelAppointment")]
+        [Authorize(Roles = "Admin,Patient,Doctor")]
+        public IActionResult CancelAppointment(long id, [FromQuery] string reason = "")
         {
             var appointment = _unitOfWork.Appointment.GetById(id);
             if (appointment == null)
@@ -165,37 +272,57 @@ namespace HMIS.API.Controllers
                 return NotFound("Appointment not found.");
             }
 
-            // Ensure that a Patient can only cancel their own appointment
+            // If the user is a Patient, ensure they can only cancel their own appointments
             if (User.IsInRole("Patient") && appointment.PatientID != int.Parse(User.Identity.Name))
             {
                 return Unauthorized("You can only cancel your own appointments.");
             }
 
-            appointment.IsActive = false; // Mark appointment as canceled---- Change
-            _unitOfWork.Appointment.Update(appointment);
-            _unitOfWork.Save();
-            return Ok(new { AppointmentID = id, Status = "Canceled" });
-        }
-
-        [HttpDelete("DeleteAppointment")]
-        public IActionResult DeleteAppointment(long AppointmentId)
-        {
-
-            // Optionally, you could check if the Appointment record exists before updating
-            var existingAppointment = _unitOfWork.Appointment.GetById(AppointmentId);
-            if (existingAppointment == null)
+            // If the user is a Doctor, allow them to cancel appointments for leave or emergency
+            if (User.IsInRole("Doctor"))
             {
-                return NotFound($"Appointment with ID {AppointmentId} not found.");
+                if (string.IsNullOrEmpty(reason))
+                {
+                    return BadRequest("A reason must be provided for canceling an appointment due to holiday or emergency.");
+                }
+                appointment.IsActive = false;
+                appointment.CancellationReason = reason;  // Set the cancellation reason (e.g., "Holiday leave", "Personal emergency")
+                _unitOfWork.Appointment.Update(appointment);
+                _unitOfWork.Save();
+                return Ok(new { AppointmentID = id, Status = "Canceled", Reason = reason });
             }
 
-            // Update the Appointment information
-            existingAppointment.IsActive = false;
-            _unitOfWork.Appointment.Update(existingAppointment);
-            _unitOfWork.Save();
+            // If the user is an Admin, they can cancel any appointment for any reason
+            if (User.IsInRole("Admin"))
+            {
+                if (string.IsNullOrEmpty(reason))
+                {
+                    return BadRequest("A reason must be provided for canceling the appointment.");
+                }
+                appointment.IsActive = false;
+                appointment.CancellationReason = reason;  // Set the cancellation reason
+                _unitOfWork.Appointment.Update(appointment);
+                _unitOfWork.Save();
+                return Ok(new { AppointmentID = id, Status = "Canceled", Reason = reason });
+            }
 
-            return Ok(new { AppointmentID = AppointmentId, Message = "Appointment deleted successfully." });
+            // If a Patient cancels their own appointment, they can provide a reason too (optional)
+            if (User.IsInRole("Patient"))
+            {
+                appointment.IsActive = false;
+                appointment.CancellationReason = string.IsNullOrEmpty(reason) ? "Patient's own decision" : reason; // Default reason if none provided
+                _unitOfWork.Appointment.Update(appointment);
+                _unitOfWork.Save();
+                return Ok(new { AppointmentID = id, Status = "Canceled", Reason = appointment.CancellationReason });
+            }
+
+            return BadRequest("Unauthorized action.");
         }
 
 
     }
 }
+
+
+
+

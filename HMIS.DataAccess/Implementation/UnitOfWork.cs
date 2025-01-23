@@ -29,11 +29,17 @@ namespace HMIS.DataAccess.Implementation
             Holiday = new HolidayRepository(_context);
             UserType = new UserTypeRepository(_context);
             AmbulanceCallList = new AmbulanceCallListRepository(_context);
+    Menus = new MenuRepository(_context);
+            MenuRoles = new MenuRoleRepository(_context);
             BranchMaster = new BranchMasterRepository(_context);
             LeaveMaster = new LeaveMasterRepository(_context);
 
         }
         public IDoctorRepository Doctor { get; private set; }
+
+        public IMenuRepository Menus { get; private set; }
+
+        public IMenuRoleRepository MenuRoles { get; private set; }
 
         public IPatientRepository Patient { get; private set; }
 

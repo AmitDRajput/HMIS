@@ -18,8 +18,13 @@ namespace HMIS.DataAccess.Implementation
 
         public UserMaster GetUserByUsernameAndPassword(string username, string password)
         {
-            
-            return _context.UserMaster.FirstOrDefault(u => u.Username == username && u.Password == password && u.IsActive==true);
+            var user = _context.UserMaster
+                        .Where(u => u.Username == username && u.Password == password && u.IsActive)
+                        .OrderByDescending(u => u.Id) // Replace 'Id' with the column you want to sort by
+                        .FirstOrDefault();
+
+            return user;
+            //return _context.UserMaster.FirstOrDefault(u => u.Username == username && u.Password == password && u.IsActive==true);
 
 
         }
