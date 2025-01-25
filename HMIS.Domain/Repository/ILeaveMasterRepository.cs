@@ -9,6 +9,9 @@ namespace HMIS.Domain.Repository
 {
     public interface ILeaveMasterRepository : IGenericRepository<LeaveMaster>
     {
+        IEnumerable<LeaveMaster> GetByStaffIDAndStartDate(long staffId, DateTime startTime, DateTime endTime);
+        LeaveMaster GetByStaffIDAndStartDate(long staffId, DateTime startTime);
 
+        bool IsLeaveOnHoliday(long staffId, DateTime startTime);
     }
 }

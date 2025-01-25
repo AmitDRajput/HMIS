@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace HMIS.API.Controllers
 {
     [Route("api/[controller]")]
@@ -57,7 +58,7 @@ namespace HMIS.API.Controllers
         }
 
         [HttpPut("AddStaffDoc/{StaffID}")]
-        public IActionResult AddStaffDoc(long StaffID,IFormFile[]? files, IFormFile? StaffPic)
+        public IActionResult AddStaffDoc(long StaffID, IFormFile[]? files, IFormFile? StaffPic)
         {
             var doc = _unitOfWork.Staff.GetById(StaffID);
             string staffProfilePath = Path.Combine(_configuration.GetValue<string>("FileUploadBasePath"), "StaffProfile", StaffID.ToString());
@@ -140,7 +141,52 @@ namespace HMIS.API.Controllers
             return Ok(new { StaffID = staff.StaffID, Message = "Staff updated successfully." });
         }
 
+        [HttpGet("CheckDoctorAvailability")]
+        [Authorize(Roles = "Admin,Doctor")]
+        public IActionResult CheckDoctorAvailability(long StaffId, DateTime date, DateTime startTime, DateTime endTime)
+        {
+            // Validate date and timeslot
+            if (date.Date < DateTime.Now.Date)
+            {
+                return BadRequest("The date cannot be in the past.");
+            }
 
+            if (startTime >= endTime)
+            {
+                return BadRequest("The start time must be earlier than the end time.");
+            }
+
+            // Check if the doctor is on leave or holiday for the specified date
+            if (IsDoctorOnLeaveOrHoliday(StaffId, date))
+            {
+                return BadRequest("The doctor is on leave or holiday on the selected date.");
+            }
+
+            // Check if the doctor already has an appointment scheduled in the given time slot
+            var existingAppointment = _unitOfWork.Appointment.GetAll()
+                .FirstOrDefault(a => a.DoctorID == StaffId &&
+                                     a.StartTime < endTime &&
+                                     a.EndTime > startTime &&
+                                     a.IsActive);
+
+            if (existingAppointment != null)
+            {
+                return BadRequest("The doctor is already booked during the selected time slot.");
+            }
+
+            // If no conflict, return available
+            return Ok(new { Available = true, Message = "Doctor is available during this time slot." });
+        }
+
+        // Helper function to check if doctor is on leave or holiday on a specific date
+        private bool IsDoctorOnLeaveOrHoliday(long StaffID, DateTime leaveFromDate)
+        {
+            // Fetch the leave records for the doctor based on StaffId
+            var leaveRecord = _unitOfWork.LeaveMaster.IsLeaveOnHoliday(StaffID, leaveFromDate);
+            
+            // Check if the doctor is on leave on the specified date
+            return leaveRecord;
+        }
 
 
         [HttpDelete("DeleteStaff")]
@@ -163,12 +209,18 @@ namespace HMIS.API.Controllers
         }
 
 
-
     }
 
 
 
+
+
+
 }
+
+
+
+
 
 
 

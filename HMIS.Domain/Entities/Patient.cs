@@ -21,7 +21,7 @@ namespace HMIS.Domain.Entities
 
         public string LabReports { get; set; }
         public string Gender { get; set; }       // Gender
-        public string? Phone { get; set; }        // Phone number
+        public string? MobileNumber { get; set; }        // MobileNumber number
         public string? Address { get; set; }      // Address
         public string? BloodGroup { get; set; }   // Blood Group
         public string? BloodPressure { get; set; } // Present Blood Pressure

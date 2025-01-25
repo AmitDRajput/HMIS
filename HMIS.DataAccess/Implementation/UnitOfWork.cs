@@ -29,7 +29,7 @@ namespace HMIS.DataAccess.Implementation
             Holiday = new HolidayRepository(_context);
             UserType = new UserTypeRepository(_context);
             AmbulanceCallList = new AmbulanceCallListRepository(_context);
-    Menus = new MenuRepository(_context);
+            Menus = new MenuRepository(_context);
             MenuRoles = new MenuRoleRepository(_context);
             BranchMaster = new BranchMasterRepository(_context);
             LeaveMaster = new LeaveMasterRepository(_context);
@@ -92,6 +92,21 @@ namespace HMIS.DataAccess.Implementation
             _context.Entry(entity).State = EntityState.Detached;
         }
 
+        // Two Param Method Added
+       // public async Task<T> ExecuteRepositoryActionAsync<T>(IRepository<T> repository, Func<IRepository<T>, Task> action)
+        //{
+        //    if (repository != null && action != null)
+        //    {
+        //        // Execute the action with the provided repository
+        //        await action(repository);
+
+        //        // Optionally save changes to the context if needed
+        //        await _context.SaveChangesAsync();
+
+        //        return default; // Return the result (if any) from the repository action
+        //    }
+        //    return default;
+        //}
 
         public int Save()
         {

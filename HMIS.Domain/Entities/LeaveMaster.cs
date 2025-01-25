@@ -18,6 +18,7 @@ namespace HMIS.Domain.Entities
         public DateTime? LeaveDateTo { get; set; }
         public string? TypeOfLeave { get; set; }
         public string? ReasonOfLeave { get; set; }
+        public string? leaveRecords { get; set; }
         public bool? IsActive { get; set; }
 
     }

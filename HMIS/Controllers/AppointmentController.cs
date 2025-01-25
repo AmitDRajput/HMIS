@@ -115,68 +115,69 @@ namespace HMIS.API.Controllers
 
         //Create Apointment By Admin And Patient
 
-        //[HttpPost("CreateAppointmentByAdmin")]
-        //[Authorize(Roles = "Admin")]
-        //public IActionResult CreateAppointment([FromBody] Appointment appt)
-        //{
-        //    if (appt == null)
-        //    {
-        //        return BadRequest("Appointment data is invalid.");
-        //    }
+        [HttpPost("CreateAppointmentByAdmin")]
+        public IActionResult CreateAppointment([FromBody] Appointment appt)
+        {
+            if (appt == null)
+            {
+                return BadRequest("Appointment data is invalid.");
+            }
 
-        //    // Check if the doctor is on leave or holiday for the requested appointment time
-        //    if (IsDoctorOnLeaveOrHoliday(appt.DoctorID, appt.StartTime))
-        //    {
-        //        return BadRequest("The doctor is on leave or holiday during this time.");
-        //    }
+            // Check if the doctor is on leave or holiday for the requested appointment time
+            if (IsDoctorOnLeaveOrHoliday(appt.DoctorID,Convert.ToDateTime( appt.StartTime)))
+            {
+                return BadRequest("The doctor is on leave or holiday during this time.");
+            }
 
-        //    // Admin can create an appointment for any patient, no further checks needed for patient
-        //    _unitOfWork.Appointment.Add(appt);
-        //    _unitOfWork.Save();
+            // Admin can create an appointment for any patient, no further checks needed for patient
+            _unitOfWork.Appointment.Add(appt);
+            _unitOfWork.Save();
 
-        //    return Ok(new { AppointmentID = appt.AppointmentID });
-        //}
+            return Ok(new { AppointmentID = appt.AppointmentID });
+        }
 
-        //[HttpPost("CreateAppointmentByPatient")]
-        //[Authorize(Roles = "Patient")]
-        //public IActionResult CreateAppointmentForPatient([FromBody] Appointment appt)
-        //{
-        //    if (appt == null)
-        //    {
-        //        return BadRequest("Appointment data is invalid.");
-        //    }
+        [HttpPost("CreateAppointmentByPatient")]
+        public IActionResult CreateAppointmentForPatient([FromBody] Appointment appt)
+        {
+            if (appt == null)
+            {
+                return BadRequest("Appointment data is invalid.");
+            }
 
-        //    // Set the PatientID to the current user's PatientID (patients can only book appointments for themselves)
-        //    appt.PatientID = int.Parse(User.Identity.Name);
+            // Set the PatientID to the current user's PatientID (patients can only book appointments for themselves)
+            //appt.PatientID = int.Parse(User.Identity.Name);
 
-            
-        //    if (IsDoctorOnLeaveOrHoliday(appt.DoctorID, appt.StartTime))
-        //    {
-        //        return BadRequest("The doctor is on leave or holiday during this time.");
-        //    }
 
-        //    _unitOfWork.Appointment.Add(appt);
-        //    _unitOfWork.Save();
+            if (IsDoctorOnLeaveOrHoliday(appt.DoctorID, Convert.ToDateTime(appt.StartTime)))
+            {
+                return BadRequest("The doctor is on leave or holiday during this time.");
+            }
 
-        //    return Ok(new { AppointmentID = appt.AppointmentID });
-        //}
+            _unitOfWork.Appointment.Add(appt);
+            _unitOfWork.Save();
 
-        //private bool IsDoctorOnLeaveOrHoliday(int staffId, DateTime startTime)
-        //{
-        //    // Fetch the leave records for the staff member (doctor) based on StaffID
-        //    var leaveRecords = _unitOfWork.LeaveMaster.GetById(staffId); // Using StaffID to get leave records
+            return Ok(new { AppointmentID = appt.AppointmentID });
+        }
 
-        //    foreach (var leaveRecord in leaveRecords)
-        //    {
-        //        // Check if the appointment start time falls within the leave or holiday period
-        //        if (startTime >= leaveRecord.StartDate && startTime <= leaveRecord.EndDate)
-        //        {
-        //            return true; // The doctor is on leave or holiday during this time
-        //        }
-        //    }
+        private bool IsDoctorOnLeaveOrHoliday(long staffId, DateTime startTime)
+        {
+            // Fetch the leave records for the staff member (doctor) based on StaffID and the given startTime
+            var leaveRecord = _unitOfWork.LeaveMaster.IsLeaveOnHoliday(staffId, startTime);
+            return leaveRecord;
+            //// Check if there are any leave records returned
+            //if (leaveRecords != null && leaveRecords.Any())
+            //{
+            //    foreach (var leaveRecord in leaveRecords)
+            //    {
+            //        // Check if the appointment start time falls within the leave or holiday period
+            //        if (startTime >= leaveRecord.StartDate && startTime <= leaveRecord.EndDate)
+            //        {
+            //            return true; // The doctor is on leave or holiday during this time
+            //        }
+            //    }
+            //}
 
-        //    return false; // The doctor is available (not on leave or holiday)
-        //}
+        }
 
 
 
@@ -318,6 +319,7 @@ namespace HMIS.API.Controllers
 
             return BadRequest("Unauthorized action.");
         }
+
 
 
     }

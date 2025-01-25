@@ -23,5 +23,8 @@ namespace HMIS.Domain.Repository
         void RemoveRange(IEnumerable<T> entities);
 
         Task<IEnumerable<T>> GetPagedAsync(int pageNumber, int pageSize);
+
+
     }
+   
 }
