@@ -17,6 +17,20 @@ namespace HMIS.DataAccess.Implementation
 
         }
 
+        public IEnumerable<LeaveWithStaffDto> GetAllLeaves()
+        {
+            return (from leave in _context.leaveMaster
+                    join staff in _context.Staff
+                    on leave.StaffID equals staff.StaffID
+                    select new LeaveWithStaffDto
+                    {
+                        Leave = leave,
+                        StaffName = staff.FirstName + " " + staff.LastName
+                    }).ToList();
+
+
+        }
+
         public IEnumerable<LeaveMaster> GetByStaffIDAndStartDate(long staffId, DateTime startTime, DateTime endTime)
         {
             return _context.leaveMaster

@@ -22,4 +22,11 @@ namespace HMIS.Domain.Entities
         public bool? IsActive { get; set; }
 
     }
+
+    public class LeaveWithStaffDto
+    {
+        public LeaveMaster Leave { get; set; }
+        public string StaffName { get; set; }
+    }
+
 }
