@@ -22,3 +22,15 @@ D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Release\net8.0\refint\HMIS.Domain.d
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.pdb
 D:\HMS\HMIS -21-12-2024\HMIS\HMIS.Domain\obj\Release\net8.0\ref\HMIS.Domain.dll
 D:\ARYA\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.sourcelink.json
+D:\HMIS-18-01\HMIS\HMIS.Domain\bin\Release\net8.0\HMIS.Domain.deps.json
+D:\HMIS-18-01\HMIS\HMIS.Domain\bin\Release\net8.0\HMIS.Domain.dll
+D:\HMIS-18-01\HMIS\HMIS.Domain\bin\Release\net8.0\HMIS.Domain.pdb
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.AssemblyInfoInputs.cache
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.AssemblyInfo.cs
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.csproj.CoreCompileInputs.cache
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.sourcelink.json
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.dll
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\refint\HMIS.Domain.dll
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\HMIS.Domain.pdb
+D:\HMIS-18-01\HMIS\HMIS.Domain\obj\Release\net8.0\ref\HMIS.Domain.dll
