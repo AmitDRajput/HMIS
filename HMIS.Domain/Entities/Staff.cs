@@ -16,6 +16,8 @@ namespace HMIS.Domain.Entities
         [MaxLength(50)]
         public string? FirstName { get; set; } = string.Empty;
 
+        public string? specilization { get;set; }
+
         [MaxLength(50)]
         public string? LastName { get; set; } = string.Empty;
 
@@ -75,6 +77,60 @@ namespace HMIS.Domain.Entities
         public string? TypeName { get; set; } // Example: Admin, Manager, Employee
 
         public bool? IsActive { get; set; } // Indicates if the UserType is active
+    }
+
+    public class Specilization
+    {
+        [Key]
+        public int SepcialId { get; set; } // Primary Key
+
+        [MaxLength(150)]
+        public string? SpecilName { get; set; } = string.Empty;
+    }
+    public class StaffDto
+    {
+        public long StaffID { get; set; } // Primary Key
+
+        public string? FirstName { get; set; }
+
+        public string? specilization { get; set; }
+        public string? LastName { get; set; }
+
+        public string? StaffName { get; set; }
+
+        public string? Designation { get; set; }
+
+        public string? MobileNo { get; set; }
+
+        public string? Email { get; set; }
+
+        public bool? IsActive { get; set; }
+
+        public string? StaffPic { get; set; } // Staff Profile Picture
+
+        public DateTime? HireDate { get; set; }
+
+        public string? Gender { get; set; }
+
+        public DateTime? DateOfJoining { get; set; }
+
+        public string? Address { get; set; }
+
+        public string? Salary { get; set; }
+
+        public string? Shift { get; set; }
+
+        public string? Description { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
+
+        public string? Education { get; set; }
+
+        public int? DepartmentID { get; set; }
+
+        public int? UserTypeId { get; set; }
+
+        public string? UserTypeName { get; set; } // Added for convenience to show UserType details
     }
 
 }

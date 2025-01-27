@@ -13,5 +13,6 @@ namespace HMIS.Domain.Repository
         LeaveMaster GetByStaffIDAndStartDate(long staffId, DateTime startTime);
 
         bool IsLeaveOnHoliday(long staffId, DateTime startTime);
+        IEnumerable<LeaveMaster> GetAllLeaves();
     }
 }

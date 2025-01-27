@@ -30,6 +30,13 @@ namespace HMIS.API.Controllers
             return Ok(docFromRepo);
         }
 
+        [HttpGet("GetSpecilzation")]
+        public IActionResult GetSpecilzation()
+        {
+            var docFromRepo = _unitOfWork.Staff.GetSpecilzation();
+            return Ok(docFromRepo);
+        }
+
         [HttpGet("GetAllStaff")]
         public IActionResult GetAllStaff()
         {
@@ -45,6 +52,24 @@ namespace HMIS.API.Controllers
                                    StaffDocument = doc // `doc` can be null if no document exists
                                }).ToList();
 
+
+            return Ok(docFromRepo);
+        }
+
+        [HttpGet("FindDoctor/{docName}")]
+        public IActionResult FindDoctor(string docName)
+        {
+            //var docFromRepo = _unitOfWork.Staff.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.StaffID);
+            var docFromRepo = _unitOfWork.Staff.FindDoctor(docName);
+
+            return Ok(docFromRepo);
+        }
+
+        [HttpGet("FindSpecialDoctor/{specialName}")]
+        public IActionResult FindSpecialDoctor(string specialName)
+        {
+            //var docFromRepo = _unitOfWork.Staff.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.StaffID);
+            var docFromRepo = _unitOfWork.Staff.FindDoctorBySpecilization(specialName);
 
             return Ok(docFromRepo);
         }
@@ -142,7 +167,6 @@ namespace HMIS.API.Controllers
         }
 
         [HttpGet("CheckDoctorAvailability")]
-        [Authorize(Roles = "Admin,Doctor")]
         public IActionResult CheckDoctorAvailability(long StaffId, DateTime date, DateTime startTime, DateTime endTime)
         {
             // Validate date and timeslot

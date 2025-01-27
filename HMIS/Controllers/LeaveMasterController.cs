@@ -28,7 +28,7 @@ namespace HMIS.API.Controllers
         [HttpGet("GetAllLeave")]
         public IActionResult GetAllLeave()
         {
-            var docFromRepo = _unitOfWork.LeaveMaster.GetAll().Where(x => x.IsActive == true).OrderByDescending(x => x.LeaveID);
+            var docFromRepo = _unitOfWork.LeaveMaster.GetAllLeaves();
             return Ok(docFromRepo);
         }
 

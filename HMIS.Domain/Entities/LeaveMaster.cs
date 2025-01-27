@@ -21,6 +21,8 @@ namespace HMIS.Domain.Entities
         public string? leaveRecords { get; set; }
         public bool? IsActive { get; set; }
 
+        public string? StaffName { get; set; }
+
     }
 
     public class LeaveWithStaffDto
